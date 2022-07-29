@@ -32,4 +32,12 @@ Route::get('/index', function () {
     return Inertia::render('Index');
 });
 
+Route::get('/signin', function () {
+    return Inertia::render('SignIn');
+})->name('signin');
+
+Route::get('/forgotpassword', function () {
+    return Inertia::render('ForgotPassword');
+})->name('forgotpassword');
+
 require __DIR__ . '/auth.php';

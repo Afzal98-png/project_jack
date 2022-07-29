@@ -21,7 +21,7 @@ import { Head } from '@inertiajs/inertia-vue3';
                     About
                 </h1>
                 <h1 class="self-center text-teal-500">
-                    <a href="">Join</a>
+                    <a href="/signin">Join</a>
                 </h1>
             </div>
         </div>
