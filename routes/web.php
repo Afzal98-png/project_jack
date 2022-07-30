@@ -40,4 +40,24 @@ Route::get('/forgotpassword', function () {
     return Inertia::render('ForgotPassword');
 })->name('forgotpassword');
 
+Route::get('/passwordverification', function () {
+    return Inertia::render('PasswordVerification');
+})->name('passwordverification');
+
+Route::get('/newpassword', function () {
+    return Inertia::render('NewPassword');
+})->name('newpassword');
+
+Route::get('/signup', function () {
+    return Inertia::render('Signup');
+})->name('signup');
+
+Route::get('/home', function () {
+    return Inertia::render('Home');
+})->name('home');
+
+Route::get('/practice', function () {
+    return Inertia::render('Practice');
+})->name('practice');
+
 require __DIR__ . '/auth.php';

@@ -1,23 +1,10 @@
 <template>
-  <TransitionRoot appear :show="isOpen" as="template">
-    <Dialog as="div" @close="closeModal" class="relative z-10">
-      <TransitionChild
-        as="template"
-        enter="duration-300 ease-out"
-        enter-from="opacity-0"
-        enter-to="opacity-100"
-        leave="duration-200 ease-in"
-        leave-from="opacity-100"
-        leave-to="opacity-0"
-      >
-        <div class="fixed inset-0 bg-black bg-opacity-25" />
-      </TransitionChild>
-
-      <div class="fixed inset-0 overflow-y-auto">
-        <div
-          class="flex min-h-full items-center justify-center p-4 text-center"
-        >
-          <TransitionChild
+  <TransitionRoot :show="isOpen" as="template">
+     <Dialog :initialFocus="completeButtonRef" :open="isOpen" @close="setIsOpen">
+        <div class="fixed inset-0 bg-black/30" aria-hidden="true" />
+        <div class="fixed inset-0 overflow-y-auto p-4">
+          <div class="flex min-h-full items-center justify-center">
+         <TransitionChild
             as="template"
             enter="duration-300 ease-out"
             enter-from="opacity-0 scale-95"
@@ -27,9 +14,10 @@
             leave-to="opacity-0 scale-95"
           >
             <DialogPanel
+              :open="isOpen" @close="setIsOpen"
               class="
                 w-full
-                max-w-md
+                w-80
                 transform
                 overflow-hidden
                 rounded-2xl
@@ -41,6 +29,9 @@
                 transition-all
               "
             >
+              <div>
+                <XIcon class="h-5 w-5 text-blue-500"/>
+              </div>
               <DialogTitle as="h3" class="grid place-content-center">
                 <img class="w-24" src="images/logo.png" alt="logo" />
               </DialogTitle>
@@ -88,22 +79,29 @@
               </div>
             </DialogPanel>
           </TransitionChild>
+          </div>
         </div>
-      </div>
-    </Dialog>
+      </Dialog>
   </TransitionRoot>
+ 
 </template>
 
 <script setup>
-import { ref } from "vue";
-import {
-  TransitionRoot,
-  TransitionChild,
-  Dialog,
-  DialogPanel,
-  DialogTitle,
-} from "@headlessui/vue";
-import TextField from "@/Components/Form/TextField.vue";
+  import { ref } from 'vue'
+  import {
+    TransitionRoot,
+    TransitionChild,
+    Dialog,
+    DialogPanel,
+    DialogTitle,
+    DialogDescription,
+  } from '@headlessui/vue'
+  import TextField from "@/Components/Form/TextField.vue";
+  import { XIcon } from '@heroicons/vue/outline'
 
-const isOpen = ref(true);
+  const isOpen = ref(true)
+
+  function setIsOpen(value) {
+    isOpen.value = value
+  }
 </script>

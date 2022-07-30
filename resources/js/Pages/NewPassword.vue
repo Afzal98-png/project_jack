@@ -15,8 +15,7 @@
           >
             <DialogPanel
               class="
-                w-full
-                w-80
+                w-full w-80
                 transform
                 overflow-hidden
                 rounded-2xl
@@ -32,20 +31,21 @@
                 <img class="w-24" src="images/logo.png" alt="logo" />
               </DialogTitle>
               <div>
-                <h1 class="text-sm mt-1 mb-6 mt-5">No Need to worry !</h1>
-              </div>
-              <div>
-                <h1 class="text-sm text-gray-500 mt-1 mb-3">Please enter email address</h1>
+                <h1 class="text-sm mt-1 mt-5">Enter a new password</h1>
               </div>
               <div class="mt-2">
                 <form>
                   <TextField
-                    class="mb-10"
                     fieldtype="email"
                     name="email"
-                    placeholder="Enter your email address"
+                    placeholder="Password"
                   >
-                    Email
+                  </TextField>
+                  <TextField
+                    fieldtype="email"
+                    name="email"
+                    placeholder="Confirm"
+                  >
                   </TextField>
                   <div
                     class="
@@ -55,11 +55,11 @@
                       text-white
                       rounded-lg
                       py-2
-                      mt-5
+                      mt-10
                       mb-10
                     "
                   >
-                    <button><a href="/passwordverification">Next</a></button>
+                    <button><a href="/newpassword">Done</a></button>
                   </div>
                 </form>
               </div>

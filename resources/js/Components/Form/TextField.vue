@@ -13,11 +13,12 @@
       :readonly="readonly"
       class="
         mt-1
-        focus:ring-indigo-500 focus:border-indigo-500
+        focus:ring-[#24C6C9] focus:border-[#24C6C9]
         block
         w-full
         shadow-sm
         sm:text-sm
+        bg-gray-100
         border-gray-300
         rounded-md
       "

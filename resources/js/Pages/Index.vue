@@ -1,37 +1,14 @@
-<script setup>
-import BreezeAuthenticatedLayout from '@/Layouts/Authenticated.vue';
-import { Head } from '@inertiajs/inertia-vue3';
-</script>
-
 <template>
     <Head title="index" />
     <div class="min-h-screen">
-        <div class="flex justify-between py-5 px-16 bg-white">
-            <div class="w-20">
-                <img src="images/logo.png" alt="logo">
-            </div>
-            <div class="flex font-semibold">
-                <h1 class="pr-16 self-center">
-                    Home
-                </h1>
-                <h1 class="pr-16 self-center">
-                    Services
-                </h1>
-                <h1 class="pr-16 self-center">
-                    About
-                </h1>
-                <h1 class="self-center text-teal-500">
-                    <a href="/signin">Join</a>
-                </h1>
-            </div>
-        </div>
-        <div class="bg-teal-500 min-h-screen grid grid-cols-2">
+        <HeadIndex></HeadIndex>
+        <div class="bg-[#24C6C9] min-h-screen grid grid-cols-2">
             <div class="self-center p-24">
                 <div class="font-medium text-5xl text-white mb-20">
                     Lorem ipsum dolor sit amet, consectetur
                 </div>
                 <div>
-                    <button class="bg-white rounded-lg font-semibold text-teal-500 py-2 px-16 ">
+                    <button class="bg-white rounded-lg font-semibold text-[#24C6C9] py-2 px-16 ">
                         Join Now
                     </button>
                 </div>
@@ -50,58 +27,58 @@ import { Head } from '@inertiajs/inertia-vue3';
             </div>
         </div>
         <div class="grid grid-cols-3 gap-24 mx-24">
-            <div class="bg-green-200 p-24 rounded-lg">
+            <div class="bg-green-100 p-24 rounded-lg">
                 <div class="grid place-content-center">
                     <img class="mb-8" src="images/Oil.png" alt="oil">
                 </div>
                 <div class="grid place-content-center">
-                    <h1 class="font-bold text-green-600">Oil Change</h1>
+                    <h1 class="font-bold text-[#24C6C9]">Oil Change</h1>
                 </div>
             </div>
-            <div class="bg-green-200 p-24 rounded-lg">
+            <div class="bg-green-100 p-24 rounded-lg">
                 <div class="grid place-content-center">
                     <img class="mb-8" src="images/Petrol.png" alt="petrol">
                 </div>
                 <div class="grid place-content-center">
-                    <h1 class="font-bold text-green-600">Mobile Filling</h1>
+                    <h1 class="font-bold text-[#24C6C9]">Mobile Filling</h1>
                 </div>
             </div>
-            <div class="bg-green-200 p-24 rounded-lg">
+            <div class="bg-green-100 p-24 rounded-lg">
                 <div class="grid place-content-center">
                     <img class="mb-8" src="images/Switch.png" alt="switch">
                 </div>
                 <div class="grid place-content-center">
-                    <h1 class="font-bold text-green-600">Trouble Starting</h1>
+                    <h1 class="font-bold text-[#24C6C9]">Trouble Starting</h1>
                 </div>
             </div>
-            <div class="bg-green-200 p-24 rounded-lg">
+            <div class="bg-green-100 p-24 rounded-lg">
                 <div class="grid place-content-center">
                     <img class="mb-8" src="images/Air.png" alt="air">
                 </div>
                 <div class="grid place-content-center">
-                    <h1 class="font-bold text-green-600">Cooling</h1>
+                    <h1 class="font-bold text-[#24C6C9]">Cooling</h1>
                 </div>
             </div>
-            <div class="bg-green-200 p-24 rounded-lg">
+            <div class="bg-green-100 p-24 rounded-lg">
                 <div class="grid place-content-center">
                     <img class="mb-8" src="images/Switch.png" alt="switch">
                 </div>
                 <div class="grid place-content-center">
-                    <h1 class="font-bold text-green-600">Trouble Starting</h1>
+                    <h1 class="font-bold text-[#24C6C9]">Trouble Starting</h1>
                 </div>
             </div>
-            <div class="bg-green-200 p-24 rounded-lg">
+            <div class="bg-green-100 p-24 rounded-lg">
                 <div class="grid place-content-center">
                     <img class="mb-8" src="images/Oil.png" alt="oil">
                 </div>
                 <div class="grid place-content-center">
-                    <h1 class="font-bold text-green-600">Oil Change</h1>
+                    <h1 class="font-bold text-[#24C6C9]">Oil Change</h1>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="bg-teal-500 mt-40">
+    <div class="bg-[#24C6C9] mt-40">
         <div class="grid place-content-center mb-20 pt-8">
             <h1 class="font-medium text-4xl text-white mb-2">Why Us</h1>
             <div class="grid place-content-center">
@@ -168,8 +145,8 @@ import { Head } from '@inertiajs/inertia-vue3';
                     </div>
                     <img src="images/Vector.png" alt="Vector">
                 </div>
-                <div class="grid place-content-center px-40 mx-40">
-                    <p class="text-sm w-80 text-gray-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <div class="grid place-content-center mx-80">
+                    <p class="text-sm text-gray-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Deleniti ducimus cupiditate nobis nemo non, ipsum eaque quis laudantium architecto quaerat nam, 
                         ratione ut dicta dolore eligendi qui earum? Explicabo, error?</p>
                 </div>
@@ -179,7 +156,7 @@ import { Head } from '@inertiajs/inertia-vue3';
 
     <div>
 
-        <div class="flex justify-center bg-teal-800 pt-16 pb-10">
+        <div class="flex justify-center bg-[#095C5E] pt-16 pb-10">
             <div class="text-white">
                 <div class="w-40 mb-10">
                     <img src="images/logo.png" alt="logo">
@@ -266,9 +243,15 @@ import { Head } from '@inertiajs/inertia-vue3';
             </div>
         </div>
 
-        <div class="flex place-content-center bg-teal-900 font-light text-white text-sm py-4">
+        <div class="flex place-content-center bg-[#073E3F] font-light text-white text-sm py-4">
             <h1 class="opacity-50 tracking-wider">Copyright 2022 @ Service provider. All rights Reserved</h1>
         </div>
 
     </div>
 </template>
+
+<script setup>
+import BreezeAuthenticatedLayout from '@/Layouts/Authenticated.vue';
+import { Head } from '@inertiajs/inertia-vue3';
+import HeadIndex from "@/Components/HeadIndex.vue";
+</script>

@@ -35,18 +35,10 @@
                 <h1 class="text-sm mt-1 mb-6 mt-5">No Need to worry !</h1>
               </div>
               <div>
-                <h1 class="text-sm text-gray-500 mt-1 mb-3">Please enter email address</h1>
+                <h1 class="text-sm text-gray-500 mt-1 mb-3">Verification link has been sent to your email test@gmail.com</h1>
               </div>
-              <div class="mt-2">
+              <div class="mt-24">
                 <form>
-                  <TextField
-                    class="mb-10"
-                    fieldtype="email"
-                    name="email"
-                    placeholder="Enter your email address"
-                  >
-                    Email
-                  </TextField>
                   <div
                     class="
                       flex
