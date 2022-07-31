@@ -56,6 +56,14 @@ Route::get('/home', function () {
     return Inertia::render('Home');
 })->name('home');
 
+Route::get('/allServices', function () {
+    return Inertia::render('AllServices');
+})->name('allServices');
+
+Route::get('/requestService1', function () {
+    return Inertia::render('RequestService1');
+})->name('requestService1');
+
 Route::get('/practice', function () {
     return Inertia::render('Practice');
 })->name('practice');

@@ -1,6 +1,6 @@
 <template>
-  <div :class="{ errors: props.errors }" class="col-span-6 sm:col-span-3">
-    <label class="block text-sm font-medium text-gray-700"
+  <div :class="{ errors: props.errors }" class="col-span-6 sm:col-span-3 mb-[30px]">
+    <label class="block text-gray-700"
       ><slot
     />
     <input

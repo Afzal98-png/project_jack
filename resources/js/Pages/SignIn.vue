@@ -1,10 +1,10 @@
 <template>
   <TransitionRoot :show="isOpen" as="template">
-     <Dialog :initialFocus="completeButtonRef" :open="isOpen" @close="setIsOpen">
-        <div class="fixed inset-0 bg-black/30" aria-hidden="true" />
-        <div class="fixed inset-0 overflow-y-auto p-4">
-          <div class="flex min-h-full items-center justify-center">
-         <TransitionChild
+    <Dialog :initialFocus="completeButtonRef" :open="isOpen" @close="setIsOpen">
+      <div class="fixed inset-0 bg-black/30" aria-hidden="true" />
+      <div class="fixed inset-0 overflow-y-auto p-4">
+        <div class="flex min-h-full items-center justify-center">
+          <TransitionChild
             as="template"
             enter="duration-300 ease-out"
             enter-from="opacity-0 scale-95"
@@ -14,10 +14,10 @@
             leave-to="opacity-0 scale-95"
           >
             <DialogPanel
-              :open="isOpen" @close="setIsOpen"
+              :open="isOpen"
+              @close="setIsOpen"
               class="
-                w-full
-                w-80
+                w-full w-80
                 transform
                 overflow-hidden
                 rounded-2xl
@@ -30,7 +30,7 @@
               "
             >
               <div>
-                <XIcon class="h-5 w-5 text-blue-500"/>
+                <XIcon class="h-5 w-5 text-blue-500" />
               </div>
               <DialogTitle as="h3" class="grid place-content-center">
                 <img class="w-24" src="images/logo.png" alt="logo" />
@@ -73,35 +73,34 @@
                   </div>
                   <div class="text-center text-xs">
                     <h1>Don't have account ?</h1>
-                    <h1 class="text-[#24C6C9]">Create Account</h1>
+                    <a class="text-[#24C6C9]" href="/signup">Create Account</a>
                   </div>
                 </form>
               </div>
             </DialogPanel>
           </TransitionChild>
-          </div>
         </div>
-      </Dialog>
+      </div>
+    </Dialog>
   </TransitionRoot>
- 
 </template>
 
 <script setup>
-  import { ref } from 'vue'
-  import {
-    TransitionRoot,
-    TransitionChild,
-    Dialog,
-    DialogPanel,
-    DialogTitle,
-    DialogDescription,
-  } from '@headlessui/vue'
-  import TextField from "@/Components/Form/TextField.vue";
-  import { XIcon } from '@heroicons/vue/outline'
+import { ref } from "vue";
+import {
+  TransitionRoot,
+  TransitionChild,
+  Dialog,
+  DialogPanel,
+  DialogTitle,
+  DialogDescription,
+} from "@headlessui/vue";
+import TextField from "@/Components/Form/TextField.vue";
+import { XIcon } from "@heroicons/vue/outline";
 
-  const isOpen = ref(true)
+const isOpen = ref(true);
 
-  function setIsOpen(value) {
-    isOpen.value = value
-  }
+function setIsOpen(value) {
+  isOpen.value = value;
+}
 </script>
