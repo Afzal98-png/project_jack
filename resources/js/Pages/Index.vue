@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="self-center">
-                <img src="images/car.png" alt="">
+                <img src="images/car1.png" alt="">
             </div>
         </div>
     </div>

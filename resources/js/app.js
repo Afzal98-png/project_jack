@@ -13,6 +13,8 @@ import HomeIndex from "@/Components/HomeIndex.vue";
 import TextField from "@/Components/Form/TextField.vue";
 import SelectOptionField from "@/Components/Form/SelectOptionField.vue";
 import RequestHead from "@/Components/RequestHead.vue";
+import FormButton from "@/Components/Form/FormButton.vue";
+import ImageField from "@/Components/Form/ImageField.vue";
 const appName = window.document.getElementsByTagName('title')[0]?.innerText || 'Laravel';
 
 createInertiaApp({
@@ -29,6 +31,8 @@ createInertiaApp({
             .component('TextField', TextField)
             .component('SelectOptionField', SelectOptionField)
             .component('RequestHead', RequestHead)
+            .component('FormButton', FormButton)
+            .component('ImageField', ImageField)
             .mount(el);
     },
 });

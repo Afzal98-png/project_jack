@@ -19,6 +19,7 @@
         shadow-sm
         sm:text-sm
         bg-gray-100
+        text-[#3A3A3A]
         border-gray-300
         rounded-md
       "

@@ -1,5 +1,5 @@
 <template>
-  <Head title="Request Service 1" />
+  <Head title="Request Service 7" />
 
   <div class="min-h-screen bg-[#FFFFFF] grid grid-cols-7">
     <!-- Home Left Index -->
@@ -14,7 +14,14 @@
         <div class="grid grid-cols-3">
           <div class="col-span-2 pr-[39px]">
             <div
-              class="flex justify-between text-sm mt-[44px] mb-[26px] mr-[115px]"
+              class="
+                flex
+                justify-between
+                text-sm
+                mt-[44px]
+                mb-[26px]
+                mr-[115px]
+              "
             >
               <div>
                 <h1 class="text-[16px] font-bold">Request Service</h1>
@@ -23,20 +30,17 @@
             <div>
               <form action="">
                 <div>
-                 <SelectOptionField
-                    selectedOption="Towing and Shipping"
+                  <SelectOptionField
+                    selectedOption="New Spare Parts"
                     name="service_type"
                   >
                     <h1 class="font-bold">Service Type</h1>
                   </SelectOptionField>
                 </div>
                 <div>
-                  <SelectOptionField
-                      selectedOption="Brand"
-                      name="choose_brand"
-                    >
-                      <h1 class="font-bold">Choose Brand</h1>
-                    </SelectOptionField>
+                  <SelectOptionField selectedOption="Brand" name="choose_brand">
+                    <h1 class="font-bold">Choose Brand</h1>
+                  </SelectOptionField>
                 </div>
                 <div>
                   <SelectOptionField
@@ -84,17 +88,35 @@
                 <div>
                   <TextField
                     fieldtype="text"
-                    name="location_to"
-                    placeholder="Location To"
+                    name="location_from"
+                    placeholder="Location From"
                   >
-                    <h1 class="font-bold">Location To</h1>
+                    <h1 class="font-bold">Location From</h1>
+                  </TextField>
+                </div>
+                <div>
+                  <TextField
+                    fieldtype="text"
+                    name="location_from"
+                    placeholder="Location From"
+                  >
+                    <h1 class="font-bold">Car Serial Number</h1>
+                  </TextField>
+                </div>
+                <div>
+                  <TextField
+                    fieldtype="text"
+                    name="location_from"
+                    placeholder="Location From"
+                  >
+                    <h1 class="font-bold">Copy of Regestration</h1>
                   </TextField>
                 </div>
                 <div>
                   <FormButton>Post Request</FormButton>
                 </div>
               </form>
-            </div> 
+            </div>
           </div>
           <div>
             <ImageField />
@@ -106,5 +128,4 @@
 </template>
 
 <script setup>
-
 </script>
