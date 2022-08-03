@@ -16,6 +16,7 @@ import RequestHead from "@/Components/RequestHead.vue";
 import FormButton from "@/Components/Form/FormButton.vue";
 import ImageField from "@/Components/Form/ImageField.vue";
 import ProfileTextField from "@/Components/Form/ProfileTextField.vue";
+import DescriptionTextField from "@/Components/Form/DescriptionTextField.vue";
 const appName = window.document.getElementsByTagName('title')[0]?.innerText || 'Laravel';
 
 createInertiaApp({
@@ -35,6 +36,7 @@ createInertiaApp({
             .component('FormButton', FormButton)
             .component('ImageField', ImageField)
             .component('ProfileTextField', ProfileTextField)
+            .component('DescriptionTextField', DescriptionTextField)
             .mount(el);
     },
 });

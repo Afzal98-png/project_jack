@@ -4,10 +4,12 @@
     <div class="mb-[13px]">
       <img src="images/Rectangle 68.png" alt="" />
     </div>
-    <img src="images/Rectangle 69.png" alt="" />
+    <div class="bg-[#F1F1F1] rounded-[10px] w-[350px] h-[210px]"></div>
+    <div class="relative bottom-[135px] left-[150px]">
+      <img src="images/add-alt.png" alt="" />
+    </div>
   </div>
 </template>
 
 <script setup>
-
 </script>

@@ -36,15 +36,15 @@ Route::get('/signin', function () {
     return Inertia::render('SignIn');
 })->name('signin');
 
-Route::get('/forgotpassword', function () {
+Route::get('/forgot-password', function () {
     return Inertia::render('ForgotPassword');
 })->name('forgotpassword');
 
-Route::get('/passwordverification', function () {
+Route::get('/password-verification', function () {
     return Inertia::render('PasswordVerification');
 })->name('passwordverification');
 
-Route::get('/newpassword', function () {
+Route::get('/new-password', function () {
     return Inertia::render('NewPassword');
 })->name('newpassword');
 
@@ -81,36 +81,36 @@ Route::get('/your-orders', function () {
 })->name('your-orders');
 
 Route::get('/sell-car', function () {
-    return Inertia::render('SellCar');
+    return Inertia::render('SellCars');
 })->name('sell-car');
 
-Route::get('/allServices', function () {
+Route::get('/all-services', function () {
     return Inertia::render('AllServices');
 })->name('allServices');
 
 // Requests
 
-Route::get('/requestService1', function () {
+Route::get('/request-Service-1', function () {
     return Inertia::render('RequestService1');
 })->name('requestService1');
 
-Route::get('/requestService2', function () {
+Route::get('/request-Service-2', function () {
     return Inertia::render('RequestService2');
 })->name('requestService2');
 
-Route::get('/requestService3', function () {
+Route::get('/request-Service-3', function () {
     return Inertia::render('RequestService3');
 })->name('requestService3');
 
-Route::get('/requestService4,5', function () {
+Route::get('/request-Service-4,5', function () {
     return Inertia::render('RequestService4,5');
 })->name('requestService4,5');
 
-Route::get('/requestService6', function () {
+Route::get('/request-Service-6', function () {
     return Inertia::render('RequestService6');
 })->name('requestService6');
 
-Route::get('/requestService7', function () {
+Route::get('/request-Service-7', function () {
     return Inertia::render('RequestService7');
 })->name('requestService7');
 
