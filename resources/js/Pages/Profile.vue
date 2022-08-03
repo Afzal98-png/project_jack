@@ -1,5 +1,5 @@
 <template>
-  <Head title="Home" />
+  <Head title="Profile" />
 
   <div class="min-h-screen bg-gray-100 grid grid-cols-7">
     <!-- Home Left Index -->
@@ -7,233 +7,93 @@
 
     <div class="col-span-6 pl-[59px] pr-[115px] pt-[59px] pb-[59px]">
       <!-- Home Head -->
-      <HomeHead />
+      <RequestHead />
       <!-- Main Content -->
-      <div>
-        <!-- Services -->
-        <div>
-          <div class="flex justify-between text-sm mt-[44px] mb-[26px]">
-            <div>
-              <h1 class="text-sm">Services in Riyadh, Saudi Arabia</h1>
+      <div class="grid grid-cols-9 mt-[80px]">
+        <div class="col-span-3 mr-[40px]">
+          <div class="bg-white rounded-[20px] pt-[40px] pb-[30px]">
+            <div class="flex justify-center">
+              <img src="images/Ellipse 15.png" alt="">
             </div>
-            <div>
-              <a href="/allServices">See All</a>
-            </div>
-          </div>
-
-          <div class="grid grid-cols-4 gap-[65px]">
-            <div
-              class="
-                grid
-                place-content-center
-                bg-[#FFFFFF]
-                w-[188.48px]
-                h-[221px]
-                rounded-[10.84px]
-              "
-            >
-              <div class="grid place-content-center mb-5">
-                <img src="images/towingVehicle.png" alt="Towing image" />
-              </div>
-              <div>
-                <h1 class="text-[#858585]">Sipping and Towing</h1>
-              </div>
-            </div>
-
-            <div
-              class="
-                grid
-                place-content-center
-                bg-[#FFFFFF]
-                w-[188.48px]
-                h-[221px]
-                rounded-[10.84px]
-              "
-            >
-              <div class="grid place-content-center mb-5">
-                <img src="images/Carrepair.png" alt="Car Repair" />
-              </div>
-              <div>
-                <h1 class="text-[#858585]">Home Repair</h1>
-              </div>
-            </div>
-
-            <div
-              class="
-                grid
-                place-content-center
-                bg-[#FFFFFF]
-                w-[188.48px]
-                h-[221px]
-                rounded-[10.84px]
-              "
-            >
-              <div class="grid place-content-center mb-5">
-                <img src="images/Car.png" alt="Car" />
-              </div>
-              <div>
-                <h1 class="text-[#858585]">Home Car Wash</h1>
-              </div>
-            </div>
-
-            <div
-              class="
-                grid
-                place-content-center
-                bg-[#FFFFFF]
-                w-[188.48px]
-                h-[221px]
-                rounded-[10.84px]
-              "
-            >
-              <div class="grid place-content-center mb-5">
-                <img src="images/Strut.png" alt="Strut" />
-              </div>
-              <div>
-                <h1 class="text-[#858585]">New Spare Parts</h1>
-              </div>
+            <div class="flex justify-center mt-[50px]">
+              <button class="border-2 rounded-[10px] px-[35px] py-[12px]">
+                <h1 class="text-[#858585] text-[14px]">Change Photo</h1>
+              </button>
             </div>
           </div>
         </div>
-        <!-- Orders -->
-        <div>
-          <div class="flex justify-between text-sm mt-[68px] mb-[26px]">
+        <div class="col-span-6 bg-white rounded-[20px] px-[40px] py-[40px] ml-[40px]">
+          <div>
+            <h1 class="text-[16px]">Personal Information</h1>
+          </div>
+          <form action="">
             <div>
-              <h1 class="text-[16px] font-bold">Your Orders</h1>
+              <ProfileTextField
+                fieldtype="text"
+                name="first_name"
+                placeholder="First Name"
+              >
+              </ProfileTextField>
             </div>
             <div>
-              <a href="">See All</a>
+              <ProfileTextField
+                fieldtype="text"
+                name="last_name"
+                placeholder="Last Name"
+              >
+              </ProfileTextField>
             </div>
-          </div>
-
-          <div class="bg-white rounded-[15px] pt-[18px] mb-[18px]">
-            <div class="px-[28px]">
-              <div class="flex justify-between mb-[18px]">
-                <div>
-                  <h1 class="text-[#000000] text-[16px] font-bold">
-                    Oil Change
-                  </h1>
-                </div>
-                <div>
-                  <h1 class="text-[#858585] text-[16px]">Due 12 June 2022</h1>
-                </div>
-              </div>
-              <div class="flex justify-between mb-[18px]">
-                <div class="flex">
-                  <div class="pr-[9.97px]">
-                    <img
-                      class="w-[12px] h-[12px]"
-                      src="images/location-pin.png"
-                      alt=""
-                    />
-                  </div>
-                  <div>
-                    <h1 class="text-[14px] text-[#858585]">
-                      Riyadh, Saudi Arabia
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <h1 class="text-[#24C6C9] text-[12px] font-bold">SAR 122</h1>
-                </div>
-              </div>
+            <div>
+              <ProfileTextField
+                fieldtype="text"
+                name="country"
+                placeholder="Country"
+              >
+              </ProfileTextField>
             </div>
-            <div
-              class="flex justify-center bg-[#EDEDED] py-[8px] rounded-b-[15px]"
-            >
-              <img
-                class="w-[10.24px h-[17.5px]]"
-                src="images/chevronbottom.png"
-                alt="chevronbottom"
-              />
+            <div>
+              <ProfileTextField
+                fieldtype="text"
+                name="city"
+                placeholder="City"
+              >
+              </ProfileTextField>
             </div>
-          </div>
-
-          <div class="bg-white rounded-[15px] pt-[18px] mb-[18px]">
-            <div class="px-[28px]">
-              <div class="flex justify-between mb-[18px]">
-                <div>
-                  <h1 class="text-[#000000] text-[16px] font-bold">
-                    Oil Change
-                  </h1>
-                </div>
-                <div>
-                  <h1 class="text-[#858585] text-[16px]">Due 12 June 2022</h1>
-                </div>
-              </div>
-              <div class="flex justify-between mb-[18px]">
-                <div class="flex">
-                  <div class="pr-[9.97px]">
-                    <img
-                      class="w-[12px] h-[12px]"
-                      src="images/location-pin.png"
-                      alt=""
-                    />
-                  </div>
-                  <div>
-                    <h1 class="text-[14px] text-[#858585]">
-                      Riyadh, Saudi Arabia
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <h1 class="text-[#24C6C9] text-[12px] font-bold">SAR 122</h1>
-                </div>
-              </div>
+            <div>
+              <h1 class="text-[16px]">Contact Information</h1>
+            </div>
+            <div>
+              <ProfileTextField
+                fieldtype="text"
+                name="email"
+                placeholder="Email"
+              >
+              </ProfileTextField>
+            </div>
+            <div>
+              <ProfileTextField
+                fieldtype="text"
+                name="contact_number"
+                placeholder="Contact Number"
+              >
+              </ProfileTextField>
             </div>
             <div
-              class="flex justify-center bg-[#EDEDED] py-[8px] rounded-b-[15px]"
+              class="
+              flex
+              justify-center
+              bg-[#24C6C9]
+              text-white
+              rounded-lg
+              py-2
+              text-[16px]
+              mt-[54px]
+              "
             >
-              <img
-                class="w-[10.24px h-[17.5px]]"
-                src="images/chevronbottom.png"
-                alt="chevronbottom"
-              />
+              <button><a href="/textverification">Save Changes</a></button>
             </div>
-          </div>
+          </form>
 
-          <div class="bg-white rounded-[15px] pt-[18px] mb-[18px]">
-            <div class="px-[28px]">
-              <div class="flex justify-between mb-[18px]">
-                <div>
-                  <h1 class="text-[#000000] text-[16px] font-bold">
-                    Oil Change
-                  </h1>
-                </div>
-                <div>
-                  <h1 class="text-[#858585] text-[16px]">Due 12 June 2022</h1>
-                </div>
-              </div>
-              <div class="flex justify-between mb-[18px]">
-                <div class="flex">
-                  <div class="pr-[9.97px]">
-                    <img
-                      class="w-[12px] h-[12px]"
-                      src="images/location-pin.png"
-                      alt=""
-                    />
-                  </div>
-                  <div>
-                    <h1 class="text-[14px] text-[#858585]">
-                      Riyadh, Saudi Arabia
-                    </h1>
-                  </div>
-                </div>
-                <div>
-                  <h1 class="text-[#24C6C9] text-[12px] font-bold">SAR 122</h1>
-                </div>
-              </div>
-            </div>
-            <div
-              class="flex justify-center bg-[#EDEDED] py-[8px] rounded-b-[15px]"
-            >
-              <img
-                class="w-[10.24px h-[17.5px]]"
-                src="images/chevronbottom.png"
-                alt="chevronbottom"
-              />
-            </div>
-          </div>
         </div>
       </div>
     </div>

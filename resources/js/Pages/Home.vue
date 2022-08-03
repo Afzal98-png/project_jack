@@ -206,7 +206,7 @@
               </div>
               <div class="flex justify-between mb-[18px]">
                 <div class="flex">
-                  <div class="pr-[9.97px]">
+                  <div class="relative top-1 mr-[5px]">
                     <img
                       class="w-[12px] h-[12px]"
                       src="images/location-pin.png"
