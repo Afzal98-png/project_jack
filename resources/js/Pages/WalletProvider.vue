@@ -3,7 +3,7 @@
 
   <div class="min-h-screen bg-gray-100 grid grid-cols-7">
     <!-- Home Left Index -->
-    <HomeIndex />
+    <ProviderIndex />
 
     <div class="col-span-6 pl-[59px] pr-[115px] pt-[59px] pb-[59px]">
       <!-- Home Head -->
@@ -59,7 +59,7 @@
                     <h1 class="text-[16px]">1111 2222 3333 4444</h1>
                   </div>
                 </div>
-                <div class="border-2 border-[#24C6C9] rounded-[12px] p-[25px] mb-[20px]">
+                <div class="border-2 border-dashed border-[#858585] rounded-[12px] p-[25px] mb-[20px]">
                     <div class="flex place-content-center px-[140px] py-[70px]">
                       <img src="images/add-alt.png" alt="">
                     </div>

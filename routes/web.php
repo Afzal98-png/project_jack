@@ -118,4 +118,104 @@ Route::get('/practice', function () {
     return Inertia::render('Practice');
 })->name('practice');
 
+// Provider
+
+Route::get('/signup-provider', function () {
+    return Inertia::render('SignupProvider');
+})->name('SignupProvider');
+
+Route::get('/home-provider', function () {
+    return Inertia::render('HomeProvider');
+})->name('homeProvider');
+
+Route::get('/request-details', function () {
+    return Inertia::render('RequestDetails');
+})->name('requestdetails');
+
+Route::get('/send-offer', function () {
+    return Inertia::render('SendOffer');
+})->name('send-offer');
+
+Route::get('/profile-provider', function () {
+    return Inertia::render('ProfileProvider');
+})->name('profile-provider');
+
+Route::get('/profile-provider-other', function () {
+    return Inertia::render('ProfileProviderOther');
+})->name('profile-provider-other');
+
+Route::get('/profile-provider-reviews', function () {
+    return Inertia::render('ProfileProviderReviews');
+})->name('profile-provider-reviews');
+
+Route::get('/wrecked_cars_list', function () {
+    return Inertia::render('WreckedCarsList');
+})->name('wrecked_cars_list');
+
+Route::get('/wrecked_cars_details', function () {
+    return Inertia::render('WreckedCarsDetails');
+})->name('wrecked_cars_details');
+
+Route::get('/request-provider', function () {
+    return Inertia::render('RequestProvider');
+})->name('request-provider');
+
+Route::get('/chat-provider', function () {
+    return Inertia::render('ChatProvider');
+})->name('chatProvider');
+
+Route::get('/your-orders-provider', function () {
+    return Inertia::render('YourOrdersProvider');
+})->name('your-ordersProvider');
+
+Route::get('/your-offers-provider', function () {
+    return Inertia::render('YourOffersProvider');
+})->name('your-ordersProvider');
+
+Route::get('/wallet-provider', function () {
+    return Inertia::render('WalletProvider');
+})->name('wallet-provider');
+
+// Seller
+
+Route::get('/home-seller', function () {
+    return Inertia::render('HomeSeller');
+})->name('home-seller');
+
+Route::get('/users', function () {
+    return Inertia::render('Users');
+})->name('users');
+
+Route::get('/service-providers', function () {
+    return Inertia::render('ServicecProviders');
+})->name('service-providers');
+
+Route::get('/profile-seller', function () {
+    return Inertia::render('ProfileSeller');
+})->name('profile-seller');
+
+Route::get('/profile-seller-update', function () {
+    return Inertia::render('ProfileSellerUpdate');
+})->name('profile-seller-update');
+
+Route::get('/profile-seller-reviews', function () {
+    return Inertia::render('ProfileSellerReviews');
+})->name('profile-seller-reviews');
+
+Route::get('/orders-seller', function () {
+    return Inertia::render('OrdersSeller');
+})->name('orders-seller');
+
+Route::get('/orders-seller-cancelled', function () {
+    return Inertia::render('OrdersSellerCancelled');
+})->name('orders-seller-cancelled');
+
+Route::get('/orders-seller-copmleted', function () {
+    return Inertia::render('OrdersSellerCopmleted');
+})->name('orders-seller-copmleted');
+
+Route::get('/transactions', function () {
+    return Inertia::render('Transactions');
+})->name('transactions');
+
 require __DIR__ . '/auth.php';

@@ -43,20 +43,14 @@
                   </SelectOptionField>
                 </div>
                 <div>
-                  <SelectOptionField
-                      selectedOption="Type"
-                      name="choose_type"
-                    >
-                      <h1 class="font-bold">Choose Type</h1>
-                    </SelectOptionField>
+                  <SelectOptionField selectedOption="Type" name="choose_type">
+                    <h1 class="font-bold">Choose Type</h1>
+                  </SelectOptionField>
                 </div>
                 <div>
-                  <SelectOptionField
-                      selectedOption="Model"
-                      name="choose_model"
-                    >
-                      <h1 class="font-bold">Choose Model</h1>
-                    </SelectOptionField>
+                  <SelectOptionField selectedOption="Model" name="choose_model">
+                    <h1 class="font-bold">Choose Model</h1>
+                  </SelectOptionField>
                 </div>
                 <div>
                   <TextField
@@ -112,7 +106,7 @@
                     <h1 class="font-bold">Copy of Regestration</h1>
                   </TextField>
                 </div>
-                <div>
+                <div class="mb-[94px]">
                   <FormButton>Post Request</FormButton>
                 </div>
               </form>

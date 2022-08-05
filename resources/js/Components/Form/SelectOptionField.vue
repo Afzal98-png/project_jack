@@ -1,5 +1,5 @@
 <template>
-  <div :class="{ errors: props.errors }" class="col-span-6 sm:col-span-3 mb-[30px]">
+  <div :class="{ errors: props.errors }" class="col-span-6 sm:col-span-3 mb-[25px]">
     <label class="block text-gray-700"
       ><slot />
       <select
@@ -16,7 +16,7 @@
           shadow-sm
           sm:text-sm
           bg-gray-100
-          border-gray-300
+          border-hidden
           rounded-md
         "
       >

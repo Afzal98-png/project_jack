@@ -14,10 +14,10 @@
         <div>
           <div class="flex justify-between text-sm mt-[44px] mb-[26px]">
             <div>
-              <h1 class="text-sm">Services in Riyadh, Saudi Arabia</h1>
+              <h1 class="text-[16px]">Services in Riyadh, Saudi Arabia</h1>
             </div>
             <div>
-              <a href="/allServices">See All</a>
+              <Link class="text-[16px] text-[#858585]" href="/allServices">See All</Link>
             </div>
           </div>
 

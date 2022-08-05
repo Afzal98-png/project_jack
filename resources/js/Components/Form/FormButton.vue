@@ -7,7 +7,6 @@
       text-white
       rounded-lg
       py-2
-      mb-[94px]
     "
     >
     <button><slot /></button>

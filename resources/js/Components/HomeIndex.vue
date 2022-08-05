@@ -4,13 +4,13 @@
         <img class="w-28" src="images/logo.png" alt="">
       </div>
       <div class="grid justify-center text-white">
-        <a class="mb-3" href="/home">Home</a>
-        <a class="mb-3" href="/request">Your Requests</a>
-        <a class="mb-3" href="/your-orders">Your Orders</a>
-        <a class="mb-3" href="/chat">Chats</a>
-        <a class="mb-3" href="/wallet">Wallet</a>
-        <a class="mb-3" href="/profile">Profile</a>
-        <a class="mb-3" href="">Logout</a>
+        <Link class="text-[20px] mb-[26px]" href="/home">Home</Link>
+        <Link class="text-[20px] mb-[26px]" href="/request">Your Requests</Link>
+        <Link class="text-[20px] mb-[26px]" href="/your-orders">Your Orders</Link>
+        <Link class="text-[20px] mb-[26px]" href="/chat">Chats</Link>
+        <Link class="text-[20px] mb-[26px]" href="/wallet">Wallet</Link>
+        <Link class="text-[20px] mb-[26px]" href="/profile">Profile</Link>
+        <Link class="text-[20px] mb-[26px]" href="">Logout</Link>
       </div>
     </div>
 </template>

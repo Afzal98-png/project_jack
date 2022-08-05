@@ -3,7 +3,7 @@
 
   <div class="min-h-screen bg-gray-100 grid grid-cols-7">
     <!-- Home Left Index -->
-    <HomeIndex />
+    <ProviderIndex />
 
     <div class="col-span-6 pl-[59px] pr-[115px] pt-[59px] pb-[59px]">
       <!-- Home Head -->
@@ -12,8 +12,8 @@
       <div>
         <!-- Services -->
         <div class="mt-[32px]">
-          <div class="grid grid-cols-9 gap-[65px]">
-            <div class="col-span-4 bg-white rounded-[20px] p-[25px]">
+          <div class="grid grid-cols-4 gap-[65px]">
+            <div class="col-span-2 bg-white rounded-[20px] p-[25px]">
               <div class="mb-[17px]">
                 <h1 class="text-[20px]">Chats</h1>
               </div>
@@ -243,13 +243,13 @@
               </div>
             </div>
 
-            <div class="col-span-5">
+            <div class="col-span-2">
               <div class="bg-white rounded-[12px]">
                 <div class="flex p-[10px] mb-[14px]">
                   <div class="mr-[17px]">
                     <img src="images/Ellipse 59.png" alt="" />
                   </div>
-                  <div>
+                  <div class="w-full" >
                     <div class="flex justify-between">
                       <div>
                         <h1 class="text-[14px]">Zain Bergson</h1>
@@ -352,8 +352,20 @@
                       type="search"
                       placeholder="Write Messege"
                     />
-                    <div class="flex justify-end relative bottom-[30px] right-[10px]">
-                      <img class="w-[26px] h-[22px]" src="images/Vector (2).png" alt="">
+                    <div
+                      class="
+                        flex
+                        justify-end
+                        relative
+                        bottom-[30px]
+                        right-[10px]
+                      "
+                    >
+                      <img
+                        class="w-[26px] h-[22px]"
+                        src="images/Vector (2).png"
+                        alt=""
+                      />
                     </div>
                   </form>
                 </div>
