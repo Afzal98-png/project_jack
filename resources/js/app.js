@@ -18,6 +18,7 @@ import ImageField from "@/Components/Form/ImageField.vue";
 import ProfileTextField from "@/Components/Form/ProfileTextField.vue";
 import DescriptionTextField from "@/Components/Form/DescriptionTextField.vue";
 import ProviderIndex from "@/Components/ProviderIndex.vue";
+import SellerHead from "@/Components/SellerHead.vue";
 import SellerIndex from "@/Components/SellerIndex.vue";
 
 const appName = window.document.getElementsByTagName('title')[0]?.innerText || 'Laravel';
@@ -43,6 +44,7 @@ createInertiaApp({
             .component('ProfileTextField', ProfileTextField)
             .component('DescriptionTextField', DescriptionTextField)
             .component('ProviderIndex', ProviderIndex)
+            .component('SellerHead', SellerHead)
             .component('SellerIndex', SellerIndex)
             .mount(el);
     },

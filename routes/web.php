@@ -187,7 +187,7 @@ Route::get('/users', function () {
 })->name('users');
 
 Route::get('/service-providers', function () {
-    return Inertia::render('ServicecProviders');
+    return Inertia::render('ServiceProviders');
 })->name('service-providers');
 
 Route::get('/profile-seller', function () {
@@ -207,11 +207,11 @@ Route::get('/orders-seller', function () {
 })->name('orders-seller');
 
 Route::get('/orders-seller-cancelled', function () {
-    return Inertia::render('OrdersSellerCancelled');
+    return Inertia::render('OrderSellerCancelled');
 })->name('orders-seller-cancelled');
 
 Route::get('/orders-seller-copmleted', function () {
-    return Inertia::render('OrdersSellerCopmleted');
+    return Inertia::render('OrderSellerCompleted');
 })->name('orders-seller-copmleted');
 
 Route::get('/transactions', function () {

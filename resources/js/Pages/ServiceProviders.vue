@@ -1,118 +1,338 @@
 <template>
-  <Head title="Profile" />
+  <Head title="Home" />
 
   <div class="min-h-screen bg-gray-100 grid grid-cols-7">
     <!-- Home Left Index -->
-    <ProviderIndex />
+    <SellerIndex />
 
     <div class="col-span-6 pl-[59px] pr-[115px] pt-[59px] pb-[59px]">
       <!-- Home Head -->
-      <RequestHead />
+      <SellerHead />
       <!-- Main Content -->
-      <div class="grid grid-cols-9 mt-[80px]">
-        <div class="col-span-3 mr-[40px]">
-          <div class="bg-white rounded-[20px] pt-[40px] pb-[30px]">
+      <div>
+        <!-- Services -->
+        <div>
+          <div class="flex justify-between text-sm mt-[32px] mb-[40px]">
             <div>
-              <div class="flex justify-center">
-                <img src="images/Ellipse 15.png" alt="">
-              </div>
-              <div class="flex justify-end relative bottom-[40px] right-[60px]">
-                <img src="images/Group 144.png" alt="">
-              </div>
-            </div>
-            <div class="mt-[50px]">
-              <div class="flex justify-center mb-[10px]">
-                <img src="images/Group 145.png" alt="">
-              </div>
-              <div class="text-center">
-                <h1 class="text-[#24C6C9] text-[15px]">56% Completed</h1>
-              </div>
+              <h1 class="text-[16px] font-bold">Service Providers</h1>
             </div>
           </div>
         </div>
-        <div class="bg-white col-span-6 rounded-[20px] px-[40px] py-[40px] ml-[40px]">
-          <div class="flex mb-[24px]">
-            <div class="mr-5">
-              <button class="bg-[#24C6C9] text-white text-[16px] rounded-[4px] px-[30px] py-[8px]">General</button>
-            </div>
-            <div class="mr-5">
-              <button class="bg-gray-100 text-[16px] rounded-[4px] px-[30px] py-[8px]">Other</button>
-            </div>
-            <div class="mr-5">
-              <button class="bg-gray-100 text-[16px] rounded-[4px] px-[30px] py-[8px]">Reviews</button>
-            </div>
-          </div>
-          <div>
-            <h1 class="text-[16px]">Personal Information</h1>
-          </div>
-          <form action="">
-            <div>
-              <ProfileTextField
-                fieldtype="text"
-                name="first_name"
-                placeholder="First Name"
-              >
-              </ProfileTextField>
-            </div>
-            <div>
-              <ProfileTextField
-                fieldtype="text"
-                name="last_name"
-                placeholder="Last Name"
-              >
-              </ProfileTextField>
-            </div>
-            <div>
-              <ProfileTextField
-                fieldtype="text"
-                name="country"
-                placeholder="Country"
-              >
-              </ProfileTextField>
-            </div>
-            <div>
-              <ProfileTextField
-                fieldtype="text"
-                name="city"
-                placeholder="City"
-              >
-              </ProfileTextField>
-            </div>
-            <div>
-              <h1 class="text-[16px]">Contact Information</h1>
-            </div>
-            <div>
-              <ProfileTextField
-                fieldtype="text"
-                name="email"
-                placeholder="Email"
-              >
-              </ProfileTextField>
-            </div>
-            <div>
-              <ProfileTextField
-                fieldtype="text"
-                name="contact_number"
-                placeholder="Contact Number"
-              >
-              </ProfileTextField>
-            </div>
+        <!-- Table -->
+        <div class="mb-[22px]">
+          <div class="rounded-[18px] bg-white">
             <div
               class="
-              flex
-              justify-center
-              bg-[#24C6C9]
-              text-white
-              rounded-lg
-              py-2
-              text-[16px]
-              mt-[54px]
+                grid grid-cols-5
+                rounded-tr-[18px] rounded-tl-[18px]
+                py-[18px]
+                px-[90px]
+                bg-[#24C6C9]
               "
             >
-              <button><a href="/textverification">Save Changes</a></button>
+              <div class="">
+                <h1 class="text-white text-[14px]">Name</h1>
+              </div>
+              <div class="">
+                <h1 class="text-white text-[14px]">City</h1>
+              </div>
+              <div class="">
+                <h1 class="text-white text-[14px]">Country</h1>
+              </div>
+              <div class="">
+                <h1 class="text-white text-[14px] ml-[14px]">Email</h1>
+              </div>
+              <div class="">
+                <h1 class="text-white text-[14px]"></h1>
+              </div>
             </div>
-          </form>
-
+            <div class="grid grid-cols-5 py-[18px] px-[18px]">
+              <div class="flex">
+                <div class="relative bottom-[5px] mr-[43px]">
+                  <img src="images/Ellipse 61.png" alt="" />
+                </div>
+                <div>
+                  <h1 class="text-[14px]">Wilson Bergson</h1>
+                </div>
+              </div>
+              <div class="ml-[43px]">
+                <h1 class="text-[14px]">Interdum</h1>
+              </div>
+              <div class="ml-[14px]">
+                <h1 class="text-[14px]">Arcu</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">lnelson@gmail.com</h1>
+              </div>
+              <div class="flex justify-end">
+                <h1 class="text-[#24C6C9] text-[14px]">View</h1>
+              </div>
+            </div>
+            <div class="grid grid-cols-5 py-[18px] px-[18px]">
+              <div class="flex">
+                <div class="relative bottom-[5px] mr-[43px]">
+                  <img src="images/Ellipse 62.png" alt="" />
+                </div>
+                <div>
+                  <h1 class="text-[14px]">Wilson Bergson</h1>
+                </div>
+              </div>
+              <div class="ml-[43px]">
+                <h1 class="text-[14px]">Interdum</h1>
+              </div>
+              <div class="ml-[14px]">
+                <h1 class="text-[14px]">Arcu</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">lnelson@gmail.com</h1>
+              </div>
+              <div class="flex justify-end">
+                <h1 class="text-[#24C6C9] text-[14px]">View</h1>
+              </div>
+            </div>
+            <div class="grid grid-cols-5 py-[18px] px-[18px]">
+              <div class="flex">
+                <div class="relative bottom-[5px] mr-[43px]">
+                  <img src="images/Ellipse 64.png" alt="" />
+                </div>
+                <div>
+                  <h1 class="text-[14px]">Leo Stanton</h1>
+                </div>
+              </div>
+              <div class="ml-[43px]">
+                <h1 class="text-[14px]">Augue</h1>
+              </div>
+              <div class="ml-[14px]">
+                <h1 class="text-[14px]">Leo</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">lnelson@gmail.com</h1>
+              </div>
+              <div class="flex justify-end">
+                <h1 class="text-[#24C6C9] text-[14px]">View</h1>
+              </div>
+            </div>
+            <div class="grid grid-cols-5 py-[18px] px-[18px]">
+              <div class="flex">
+                <div class="relative bottom-[5px] mr-[43px]">
+                  <img src="images/Ellipse 66.png" alt="" />
+                </div>
+                <div>
+                  <h1 class="text-[14px]">Wilson Bergson</h1>
+                </div>
+              </div>
+              <div class="ml-[43px]">
+                <h1 class="text-[14px]">Interdum</h1>
+              </div>
+              <div class="ml-[14px]">
+                <h1 class="text-[14px]">Arcu</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">lnelson@gmail.com</h1>
+              </div>
+              <div class="flex justify-end">
+                <h1 class="text-[#24C6C9] text-[14px]">View</h1>
+              </div>
+            </div>
+            <div class="grid grid-cols-5 py-[18px] px-[18px]">
+              <div class="flex">
+                <div class="relative bottom-[5px] mr-[43px]">
+                  <img src="images/Ellipse 66.png" alt="" />
+                </div>
+                <div>
+                  <h1 class="text-[14px]">Wilson Bergson</h1>
+                </div>
+              </div>
+              <div class="ml-[43px]">
+                <h1 class="text-[14px]">Interdum</h1>
+              </div>
+              <div class="ml-[14px]">
+                <h1 class="text-[14px]">Arcu</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">lnelson@gmail.com</h1>
+              </div>
+              <div class="flex justify-end">
+                <h1 class="text-[#24C6C9] text-[14px]">View</h1>
+              </div>
+            </div>
+            <div class="grid grid-cols-5 py-[18px] px-[18px]">
+              <div class="flex">
+                <div class="relative bottom-[5px] mr-[43px]">
+                  <img src="images/Ellipse 66.png" alt="" />
+                </div>
+                <div>
+                  <h1 class="text-[14px]">Wilson Bergson</h1>
+                </div>
+              </div>
+              <div class="ml-[43px]">
+                <h1 class="text-[14px]">Interdum</h1>
+              </div>
+              <div class="ml-[14px]">
+                <h1 class="text-[14px]">Arcu</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">lnelson@gmail.com</h1>
+              </div>
+              <div class="flex justify-end">
+                <h1 class="text-[#24C6C9] text-[14px]">View</h1>
+              </div>
+            </div>
+            <div class="grid grid-cols-5 py-[18px] px-[18px]">
+              <div class="flex">
+                <div class="relative bottom-[5px] mr-[43px]">
+                  <img src="images/Ellipse 66.png" alt="" />
+                </div>
+                <div>
+                  <h1 class="text-[14px]">Wilson Bergson</h1>
+                </div>
+              </div>
+              <div class="ml-[43px]">
+                <h1 class="text-[14px]">Interdum</h1>
+              </div>
+              <div class="ml-[14px]">
+                <h1 class="text-[14px]">Arcu</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">lnelson@gmail.com</h1>
+              </div>
+              <div class="flex justify-end">
+                <h1 class="text-[#24C6C9] text-[14px]">View</h1>
+              </div>
+            </div>
+            <div class="grid grid-cols-5 py-[18px] px-[18px]">
+              <div class="flex">
+                <div class="relative bottom-[5px] mr-[43px]">
+                  <img src="images/Ellipse 66.png" alt="" />
+                </div>
+                <div>
+                  <h1 class="text-[14px]">Wilson Bergson</h1>
+                </div>
+              </div>
+              <div class="ml-[43px]">
+                <h1 class="text-[14px]">Interdum</h1>
+              </div>
+              <div class="ml-[14px]">
+                <h1 class="text-[14px]">Arcu</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">lnelson@gmail.com</h1>
+              </div>
+              <div class="flex justify-end">
+                <h1 class="text-[#24C6C9] text-[14px]">View</h1>
+              </div>
+            </div>
+            <div class="grid grid-cols-5 py-[18px] px-[18px]">
+              <div class="flex">
+                <div class="relative bottom-[5px] mr-[43px]">
+                  <img src="images/Ellipse 66.png" alt="" />
+                </div>
+                <div>
+                  <h1 class="text-[14px]">Wilson Bergson</h1>
+                </div>
+              </div>
+              <div class="ml-[43px]">
+                <h1 class="text-[14px]">Interdum</h1>
+              </div>
+              <div class="ml-[14px]">
+                <h1 class="text-[14px]">Arcu</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">lnelson@gmail.com</h1>
+              </div>
+              <div class="flex justify-end">
+                <h1 class="text-[#24C6C9] text-[14px]">View</h1>
+              </div>
+            </div>
+            <div class="grid grid-cols-5 py-[18px] px-[18px]">
+              <div class="flex">
+                <div class="relative bottom-[5px] mr-[43px]">
+                  <img src="images/Ellipse 66.png" alt="" />
+                </div>
+                <div>
+                  <h1 class="text-[14px]">Wilson Bergson</h1>
+                </div>
+              </div>
+              <div class="ml-[43px]">
+                <h1 class="text-[14px]">Interdum</h1>
+              </div>
+              <div class="ml-[14px]">
+                <h1 class="text-[14px]">Arcu</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">lnelson@gmail.com</h1>
+              </div>
+              <div class="flex justify-end">
+                <h1 class="text-[#24C6C9] text-[14px]">View</h1>
+              </div>
+            </div>
+            <div class="grid grid-cols-5 py-[18px] px-[18px]">
+              <div class="flex">
+                <div class="relative bottom-[5px] mr-[43px]">
+                  <img src="images/Ellipse 66.png" alt="" />
+                </div>
+                <div>
+                  <h1 class="text-[14px]">Wilson Bergson</h1>
+                </div>
+              </div>
+              <div class="ml-[43px]">
+                <h1 class="text-[14px]">Interdum</h1>
+              </div>
+              <div class="ml-[14px]">
+                <h1 class="text-[14px]">Arcu</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">lnelson@gmail.com</h1>
+              </div>
+              <div class="flex justify-end">
+                <h1 class="text-[#24C6C9] text-[14px]">View</h1>
+              </div>
+            </div>
+            <div class="grid grid-cols-5 py-[18px] px-[18px]">
+              <div class="flex">
+                <div class="relative bottom-[5px] mr-[43px]">
+                  <img src="images/Ellipse 66.png" alt="" />
+                </div>
+                <div>
+                  <h1 class="text-[14px]">Wilson Bergson</h1>
+                </div>
+              </div>
+              <div class="ml-[43px]">
+                <h1 class="text-[14px]">Interdum</h1>
+              </div>
+              <div class="ml-[14px]">
+                <h1 class="text-[14px]">Arcu</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">lnelson@gmail.com</h1>
+              </div>
+              <div class="flex justify-end">
+                <h1 class="text-[#24C6C9] text-[14px]">View</h1>
+              </div>
+            </div>
+            <div class="grid grid-cols-5 py-[18px] px-[18px]">
+              <div class="flex">
+                <div class="relative bottom-[5px] mr-[43px]">
+                  <img src="images/Ellipse 66.png" alt="" />
+                </div>
+                <div>
+                  <h1 class="text-[14px]">Wilson Bergson</h1>
+                </div>
+              </div>
+              <div class="ml-[43px]">
+                <h1 class="text-[14px]">Interdum</h1>
+              </div>
+              <div class="ml-[14px]">
+                <h1 class="text-[14px]">Arcu</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">lnelson@gmail.com</h1>
+              </div>
+              <div class="flex justify-end">
+                <h1 class="text-[#24C6C9] text-[14px]">View</h1>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -1,99 +1,205 @@
 <template>
-  <Head title="Profile" />
+  <Head title="Home" />
 
   <div class="min-h-screen bg-gray-100 grid grid-cols-7">
     <!-- Home Left Index -->
-    <HomeIndex />
+    <SellerIndex />
 
     <div class="col-span-6 pl-[59px] pr-[115px] pt-[59px] pb-[59px]">
       <!-- Home Head -->
-      <RequestHead />
+      <SellerHead />
       <!-- Main Content -->
-      <div class="grid grid-cols-9 mt-[80px]">
-        <div class="col-span-3 mr-[40px]">
-          <div class="bg-white rounded-[20px] pt-[40px] pb-[30px]">
-            <div class="flex justify-center">
-              <img src="images/Ellipse 15.png" alt="">
+      <div>
+        <!-- Services -->
+        <div class="mb-[44px]">
+          <div class="flex justify-between text-sm mt-[32px] mb-[23px]">
+            <div>
+              <h1 class="text-[16px] font-bold">Orders</h1>
             </div>
-            <div class="flex justify-center mt-[50px]">
-              <button class="border-2 rounded-[10px] px-[35px] py-[12px]">
-                <h1 class="text-[#858585] text-[14px]">Change Photo</h1>
+          </div>
+          <div class="flex">
+            <div class="mr-5">
+              <button
+                class="
+                  bg-white text-[16px]
+                  rounded-[4px]
+                  px-[30px]
+                  py-[8px]
+                "
+              >
+                Active
+              </button>
+            </div>
+            <div class="mr-5">
+              <button
+                class="bg-white text-[16px] rounded-[4px] px-[30px] py-[8px]"
+              >
+                Cancelled
+              </button>
+            </div>
+            <div class="mr-5">
+              <button
+                class="bg-[#24C6C9]
+                  text-white text-[16px] rounded-[4px] px-[30px] py-[8px]"
+              >
+                Completed
               </button>
             </div>
           </div>
         </div>
-        <div class="col-span-6 bg-white rounded-[20px] px-[40px] py-[40px] ml-[40px]">
-          <div>
-            <h1 class="text-[16px]">Personal Information</h1>
-          </div>
-          <form action="">
-            <div>
-              <ProfileTextField
-                fieldtype="text"
-                name="first_name"
-                placeholder="First Name"
-              >
-              </ProfileTextField>
-            </div>
-            <div>
-              <ProfileTextField
-                fieldtype="text"
-                name="last_name"
-                placeholder="Last Name"
-              >
-              </ProfileTextField>
-            </div>
-            <div>
-              <ProfileTextField
-                fieldtype="text"
-                name="country"
-                placeholder="Country"
-              >
-              </ProfileTextField>
-            </div>
-            <div>
-              <ProfileTextField
-                fieldtype="text"
-                name="city"
-                placeholder="City"
-              >
-              </ProfileTextField>
-            </div>
-            <div>
-              <h1 class="text-[16px]">Contact Information</h1>
-            </div>
-            <div>
-              <ProfileTextField
-                fieldtype="text"
-                name="email"
-                placeholder="Email"
-              >
-              </ProfileTextField>
-            </div>
-            <div>
-              <ProfileTextField
-                fieldtype="text"
-                name="contact_number"
-                placeholder="Contact Number"
-              >
-              </ProfileTextField>
-            </div>
+        <!-- Table -->
+        <div class="mb-[22px]">
+          <div class="rounded-[18px] bg-white">
             <div
               class="
-              flex
-              justify-center
-              bg-[#24C6C9]
-              text-white
-              rounded-lg
-              py-2
-              text-[16px]
-              mt-[54px]
+                grid grid-cols-6
+                rounded-tr-[18px] rounded-tl-[18px]
+                py-[18px]
+                px-[27px]
+                bg-[#24C6C9]
               "
             >
-              <button><a href="/textverification">Save Changes</a></button>
+              <div class="">
+                <h1 class="text-white text-[14px]">ID</h1>
+              </div>
+              <div class="">
+                <h1 class="text-white text-[14px]">Service Provider</h1>
+              </div>
+              <div class="">
+                <h1 class="text-white text-[14px]">User</h1>
+              </div>
+              <div class="">
+                <h1 class="text-white text-[14px] ml-[14px]">Date</h1>
+              </div>
+              <div class="">
+                <h1 class="text-white text-[14px]">Total Cost</h1>
+              </div>
+              <div class="">
+                <h1 class="text-white text-[14px]">Due</h1>
+              </div>
             </div>
-          </form>
-
+            <div class="grid grid-cols-6 py-[18px] px-[22px]">
+              <div>
+                <h1 class="text-[14px]">34</h1>
+              </div>
+              <div>
+                <h1 class="text-[14px]">Alfonso Carder</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">Terry Siphron</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">12 June, 2022</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">122 SAR</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">12 June, 2022</h1>
+              </div>
+            </div>
+            <div class="grid grid-cols-6 py-[18px] px-[22px]">
+              <div>
+                <h1 class="text-[14px]">34</h1>
+              </div>
+              <div>
+                <h1 class="text-[14px]">Alfonso Carder</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">Terry Siphron</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">12 June, 2022</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">122 SAR</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">12 June, 2022</h1>
+              </div>
+            </div>
+            <div class="grid grid-cols-6 py-[18px] px-[22px]">
+              <div>
+                <h1 class="text-[14px]">34</h1>
+              </div>
+              <div>
+                <h1 class="text-[14px]">Alfonso Carder</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">Terry Siphron</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">12 June, 2022</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">122 SAR</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">12 June, 2022</h1>
+              </div>
+            </div>
+            <div class="grid grid-cols-6 py-[18px] px-[22px]">
+              <div>
+                <h1 class="text-[14px]">34</h1>
+              </div>
+              <div>
+                <h1 class="text-[14px]">Alfonso Carder</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">Terry Siphron</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">12 June, 2022</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">122 SAR</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">12 June, 2022</h1>
+              </div>
+            </div>
+            <div class="grid grid-cols-6 py-[18px] px-[22px]">
+              <div>
+                <h1 class="text-[14px]">34</h1>
+              </div>
+              <div>
+                <h1 class="text-[14px]">Alfonso Carder</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">Terry Siphron</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">12 June, 2022</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">122 SAR</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">12 June, 2022</h1>
+              </div>
+            </div>
+            <div class="grid grid-cols-6 py-[18px] px-[22px]">
+              <div>
+                <h1 class="text-[14px]">34</h1>
+              </div>
+              <div>
+                <h1 class="text-[14px]">Alfonso Carder</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">Terry Siphron</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">12 June, 2022</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">122 SAR</h1>
+              </div>
+              <div class="">
+                <h1 class="text-[14px]">12 June, 2022</h1>
+              </div>
+            </div>
+            
+          </div>
         </div>
       </div>
     </div>
