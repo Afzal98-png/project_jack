@@ -51,7 +51,7 @@
                       mb-10
                     "
                   >
-                    <button><a href="/newpassword">Next</a></button>
+                    <button><a href="/new-password">Next</a></button>
                   </div>
                 </form>
               </div>
