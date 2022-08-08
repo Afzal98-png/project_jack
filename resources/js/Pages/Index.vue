@@ -2,7 +2,7 @@
   <Head title="Index" />
   <div class="min-h-screen">
     <!-- Navbar -->
-    <HeadIndex></HeadIndex>
+    <IndexHead></IndexHead>
     <!-- Main Screen -->
     <div class="grid grid-cols-2 bg-[#24C6C9] min-h-screen pl-[120px]">
       <div class="self-center">
@@ -172,90 +172,93 @@
           <p class="text-[24px]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
             ducimus cupiditate nobis nemo non, ipsum eaque quis laudantium
-            architecto quaerat nam, ratione ut dicta
-            Explicabo, error?
+            architecto quaerat nam, ratione ut dicta Explicabo, error?
           </p>
         </div>
       </div>
     </div>
   </div>
   <!-- das -->
-  
-<!-- Footer -->
+
+  <!-- Footer -->
   <div>
-    <div class="flex justify-center bg-[#095C5E] pt-16 pb-10">
+    <div class="flex justify-center bg-[#095C5E] py-[60px]">
       <div class="text-white">
-        <div class="w-40 mb-10">
+        <div class="w-40 mb-[40px]">
           <img src="images/logo.png" alt="logo" />
         </div>
-        <div class="font-light text-lg">
-          <div class="flex mb-8">
-            <img class="mr-5" src="images/phone.png" alt="phone icon" />
+        <div class="font-light text-[16px]">
+          <div class="flex mb-[40px]">
+            <img class="mr-[20px]" src="images/phone.png" alt="phone icon" />
             <h1>+66 32329 r23523</h1>
           </div>
           <div class="flex">
-            <img class="mr-5" src="images/android-mail.png" alt="mail icon" />
+            <img
+              class="mr-[20px]"
+              src="images/android-mail.png"
+              alt="mail icon"
+            />
             <h1>Serviceprovider@gmail.com</h1>
           </div>
         </div>
       </div>
 
-      <div class="ml-12">
+      <div class="ml-[44px]">
         <img class="h-64" src="images/Line 5.png" alt="" />
       </div>
 
-      <div class="text-white mx-20">
-        <div class="mb-8 font-medium text-xl">
+      <div class="text-white mx-[80px]">
+        <div class="font-bold text-[20px] mb-[30px]">
           <h1>Site Map</h1>
         </div>
-        <div class="flex font-light text-lg">
-          <div class="mr-24">
-            <h1 class="mb-3">Commodo</h1>
-            <h1 class="mb-3">Tristique</h1>
-            <h1 class="mb-3">Risus</h1>
-            <h1 class="mb-3">Eu</h1>
-            <h1 class="mb-3">Viverra</h1>
+        <div class="flex font-light text-[16px]">
+          <div class="mr-[100px]">
+            <h1 class="mb-[16px]">Commodo</h1>
+            <h1 class="mb-[16px]">Tristique</h1>
+            <h1 class="mb-[16px]">Risus</h1>
+            <h1 class="mb-[16px]">Eu</h1>
+            <h1 class="mb-[16px]">Viverra</h1>
           </div>
-          <div class="mr-24">
-            <h1 class="mb-3">Commodo</h1>
-            <h1 class="mb-3">Tristique</h1>
-            <h1 class="mb-3">Risus</h1>
-            <h1 class="mb-3">Eu</h1>
-            <h1 class="mb-3">Viverra</h1>
+          <div class="mr-[100px]">
+            <h1 class="mb-[16px]">Commodo</h1>
+            <h1 class="mb-[16px]">Tristique</h1>
+            <h1 class="mb-[16px]">Risus</h1>
+            <h1 class="mb-[16px]">Eu</h1>
+            <h1 class="mb-[16px]">Viverra</h1>
           </div>
           <div class="">
-            <h1 class="mb-3">Commodo</h1>
-            <h1 class="mb-3">Tristique</h1>
-            <h1 class="mb-3">Risus</h1>
-            <h1 class="mb-3">Eu</h1>
-            <h1 class="mb-3">Viverra</h1>
+            <h1 class="mb-[16px]">Commodo</h1>
+            <h1 class="mb-[16px]">Tristique</h1>
+            <h1 class="mb-[16px]">Risus</h1>
+            <h1 class="mb-[16px]">Eu</h1>
+            <h1 class="mb-[16px]">Viverra</h1>
           </div>
         </div>
       </div>
 
-      <div class="mr-12">
+      <div class="mr-[50px]">
         <img class="h-64" src="images/Line 5.png" alt="vertical line" />
       </div>
 
       <div class="text-white">
-        <div class="mb-8 font-medium text-xl">
+        <div class="font-bold text-[20px] mb-[30px]">
           <h1>Social</h1>
         </div>
-        <div class="font-light text-lg">
-          <div class="flex mb-5">
-            <img class="mr-5" src="images/facebook.png" alt="facebook" />
+        <div class="font-light text-[16px]">
+          <div class="flex mb-[23px]">
+            <img class="mr-[25px]" src="images/facebook.png" alt="facebook" />
             <h1>Facebook</h1>
           </div>
-          <div class="flex mb-5">
-            <img class="mr-5" src="images/Twitter.png" alt="twitter" />
+          <div class="flex mb-[23px]">
+            <img class="mr-[25px]" src="images/Twitter.png" alt="twitter" />
             <h1>Twitter</h1>
           </div>
-          <div class="flex mb-5">
-            <img class="mr-5" src="images/linkedin.png" alt="linked in" />
+          <div class="flex mb-[23px]">
+            <img class="mr-[25px]" src="images/linkedin.png" alt="linked in" />
             <h1>Linked In</h1>
           </div>
-          <div class="flex mb-5">
-            <img class="mr-5" src="images/instagram.png" alt="Instagram" />
+          <div class="flex mb-[23px]">
+            <img class="mr-[25px]" src="images/instagram.png" alt="Instagram" />
             <h1>Instagram</h1>
           </div>
         </div>
@@ -269,7 +272,7 @@
         bg-[#073E3F]
         font-light
         text-white text-sm
-        py-4
+        py-[18px]
       "
     >
       <h1 class="opacity-50 tracking-wider">
@@ -280,7 +283,4 @@
 </template>
 
 <script setup>
-import BreezeAuthenticatedLayout from "@/Layouts/Authenticated.vue";
-import { Head } from "@inertiajs/inertia-vue3";
-import HeadIndex from "@/Components/HeadIndex.vue";
 </script>

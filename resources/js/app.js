@@ -20,6 +20,7 @@ import DescriptionTextField from "@/Components/Form/DescriptionTextField.vue";
 import ProviderIndex from "@/Components/ProviderIndex.vue";
 import SellerHead from "@/Components/SellerHead.vue";
 import SellerIndex from "@/Components/SellerIndex.vue";
+import IndexHead from "@/Components/Shared/IndexHead.vue";
 
 const appName = window.document.getElementsByTagName('title')[0]?.innerText || 'Laravel';
 
@@ -46,6 +47,7 @@ createInertiaApp({
             .component('ProviderIndex', ProviderIndex)
             .component('SellerHead', SellerHead)
             .component('SellerIndex', SellerIndex)
+            .component('IndexHead', IndexHead)
             .mount(el);
     },
 });
