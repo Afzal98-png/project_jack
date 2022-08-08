@@ -145,8 +145,8 @@
                         </TextField>
                     </div>
                     <div>
-                        <div class="mb-[13px]">
-                            <h1 class="text-[16px] font-bold">Vehicle Ownership Photo</h1>
+                        <div class="mb-[13px] mr-[13px]">
+                            <h1 class="text-[16px] font-bold">License Photo</h1>
                         </div>
                         <div class="flex items-center justify-center bg-gray-100 rounded-[10px] w-[450px] h-[200px]">
                             <div>

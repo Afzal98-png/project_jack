@@ -56,7 +56,7 @@
                     Password
                   </TextField>
                   <div class="flex justify-end text-xs text-[#24C6C9]">
-                    <a href="/forgotpassword">Forgot Password?</a>
+                    <a href="/forgot-password">Forgot Password?</a>
                   </div>
                   <div
                     class="
