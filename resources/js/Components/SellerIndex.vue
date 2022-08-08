@@ -4,11 +4,11 @@
         <img class="w-28" src="images/logo.png" alt="">
       </div>
       <div class="grid justify-center text-white">
-        <Link class="text-[20px] mb-[26px]" href="/home-seller">Overview</Link>
-        <Link class="text-[20px] mb-[26px]" href="/users">Users</Link>
-        <Link class="text-[20px] mb-[26px]" href="/service-providers">Service Providers</Link>
-        <Link class="text-[20px] mb-[26px]" href="/orders-seller">Orders</Link>
-        <Link class="text-[20px] mb-[26px]" href="/transactions">Transactions</Link>
+        <Link class="text-[20px] mb-[26px]" href="/home-provider">Overview</Link>
+        <Link class="text-[20px] mb-[26px]" href="/request-provider">Users</Link>
+        <Link class="text-[20px] mb-[26px]" href="/your-offers-provider">Service Providers</Link>
+        <Link class="text-[20px] mb-[26px]" href="/your-orders-provider">Orders</Link>
+        <Link class="text-[20px] mb-[26px]" href="/chat-provider">Transactions</Link>
       </div>
     </div>
 </template>

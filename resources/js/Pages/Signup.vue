@@ -108,7 +108,7 @@
                     mb-10
                     "
                 >
-                    <button><a href="">Next</a></button>
+                    <button><a href="/passwordverification">Next</a></button>
                 </div>
                 </form>
             </div>
@@ -119,4 +119,9 @@
 </template>
 
 <script setup>
+import BreezeAuthenticatedLayout from "@/Layouts/Authenticated.vue";
+import TextField from "@/Components/Form/TextField.vue";
+import { Head } from "@inertiajs/inertia-vue3";
+import { ChevronLeftIcon } from "@heroicons/vue/outline";
+import HeadIndex from "@/Components/HeadIndex.vue";
 </script>

@@ -32,7 +32,6 @@ Route::get('/index', function () {
     return Inertia::render('Index');
 });
 
-// Login System
 Route::get('/signin', function () {
     return Inertia::render('SignIn');
 })->name('signin');
@@ -52,8 +51,6 @@ Route::get('/new-password', function () {
 Route::get('/signup', function () {
     return Inertia::render('Signup');
 })->name('signup');
-
-// Home
 
 Route::get('/home', function () {
     return Inertia::render('Home');

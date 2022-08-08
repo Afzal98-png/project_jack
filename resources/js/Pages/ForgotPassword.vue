@@ -59,7 +59,7 @@
                       mb-10
                     "
                   >
-                    <button><a href="/password-verification">Next</a></button>
+                    <button><a href="/passwordverification">Next</a></button>
                   </div>
                 </form>
               </div>

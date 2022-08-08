@@ -17,7 +17,7 @@
               <h1 class="text-[16px]">Services in Riyadh, Saudi Arabia</h1>
             </div>
             <div>
-              <Link class="text-[16px] text-[#858585]" href="/all-services">See All</Link>
+              <Link class="text-[16px] text-[#858585]" href="/allServices">See All</Link>
             </div>
           </div>
 
