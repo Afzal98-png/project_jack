@@ -1,5 +1,5 @@
 <template>
-  <Head title="Home" />
+  <Head title="Request Details" />
 
   <div class="min-h-screen bg-gray-100 grid grid-cols-7">
     <!-- Home Left Index -->
@@ -12,8 +12,15 @@
       <div>
         <!-- Services -->
         <div class="mt-[10px]">
-          <div>
-            <h1 class="text-[16px]">Details</h1>
+          <div class="flex">
+            <div class="relative bottom-[5px] mr-[15px]">
+              <Link href="/signin"
+                ><img class="w-[36px] h-[36px]" src="images/Back.png" alt=""
+              /></Link>
+            </div>
+             <div>
+            <h1 class="text-[16px] font-bold">Details</h1>
+          </div>
           </div>
           <div class="grid grid-cols-3 gap-[37px]">
             <div class="col-span-2">
@@ -53,7 +60,7 @@
                 class="bg-white rounded-[15px] mt-[26px] px-[23px] py-[16px]"
               >
                 <div>
-                  <h1 class="text-[16px] mb-[24px]">Towing and Shipping</h1>
+                  <h1 class="text-[16px] font-bold mb-[24px]">Towing and Shipping</h1>
                 </div>
                 <div>
                   <h1 class="text-[14px] text-[#858585]">
@@ -80,10 +87,18 @@
 
             <div class="mt-[47px]">
               <div class="mb-[24px]">
-                <img class="w-[345px] h-[265px]" src="images/Rectangle 67.png" alt="" />
+                <img
+                  class="w-[345px] h-[265px]"
+                  src="images/Rectangle 67.png"
+                  alt=""
+                />
               </div>
               <div>
-                <img class="w-[345px] h-[265px]" src="images/Rectangle 115.png" alt="" />
+                <img
+                  class="w-[345px] h-[265px]"
+                  src="images/Rectangle 115.png"
+                  alt=""
+                />
               </div>
             </div>
           </div>

@@ -1,5 +1,5 @@
 <template>
-  <Head title="Home" />
+  <Head title="Wrecked Cars Details" />
 
   <div class="min-h-screen bg-gray-100 grid grid-cols-7">
     <!-- Home Left Index -->
@@ -12,8 +12,17 @@
       <div class="mt-[40px]">
         <!-- Heading -->
         <div class="mb-[26px]">
-          <div>
-            <h1 class="text-[16px] font-bold">Details</h1>
+          <div class="flex">
+            <div>
+              <div class="relative bottom-[5px] mr-[15px]">
+                <Link href="/wrecked_cars_list"
+                  ><img class="w-[36px] h-[36px]" src="images/Back.png" alt=""
+                /></Link>
+              </div>
+            </div>
+            <div>
+              <h1 class="text-[16px] font-bold">Details</h1>
+            </div>
           </div>
         </div>
         <!-- Orders -->
@@ -26,13 +35,13 @@
             </div>
             <div class="flex mt-[24px]">
               <div class="mr-[24px]">
-                <img src="images/Rectangle 224.png" alt="">
+                <img src="images/Rectangle 224.png" alt="" />
               </div>
               <div class="mr-[24px]">
-                <img src="images/Rectangle 225.png" alt="">
+                <img src="images/Rectangle 225.png" alt="" />
               </div>
               <div class="mr-[24px]">
-                <img src="images/Rectangle 225.png" alt="">
+                <img src="images/Rectangle 225.png" alt="" />
               </div>
             </div>
             <div class="bg-white rounded-[5px] py-[17px] px-[26px] mt-[100px]">
@@ -41,7 +50,19 @@
               </div>
               <div>
                 <div class="grid grid-cols-2">
-                  <div class="flex justify-between bg-[#F8F8F8] rounded-[10px] h-min mr-[30px] mb-[20px] py-[10px] px-[20px]">
+                  <div
+                    class="
+                      flex
+                      justify-between
+                      bg-[#F8F8F8]
+                      rounded-[10px]
+                      h-min
+                      mr-[30px]
+                      mb-[20px]
+                      py-[10px]
+                      px-[20px]
+                    "
+                  >
                     <div>
                       <h1 class="text-[#3A3A3A] text-[15px]">Type</h1>
                     </div>
@@ -49,7 +70,19 @@
                       <h1 class="font-bold text-[15px]">Audi</h1>
                     </div>
                   </div>
-                  <div class="flex justify-between bg-[#F8F8F8] rounded-[10px] h-min mr-[30px] mb-[20px] py-[10px] px-[20px]">
+                  <div
+                    class="
+                      flex
+                      justify-between
+                      bg-[#F8F8F8]
+                      rounded-[10px]
+                      h-min
+                      mr-[30px]
+                      mb-[20px]
+                      py-[10px]
+                      px-[20px]
+                    "
+                  >
                     <div>
                       <h1 class="text-[#3A3A3A] text-[15px]">Category</h1>
                     </div>
@@ -57,15 +90,41 @@
                       <h1 class="font-bold text-[15px]">Sedan</h1>
                     </div>
                   </div>
-                  <div class="flex justify-between bg-[#F8F8F8] rounded-[10px] h-min mr-[30px] mb-[20px] py-[10px] px-[20px]">
+                  <div
+                    class="
+                      flex
+                      justify-between
+                      bg-[#F8F8F8]
+                      rounded-[10px]
+                      h-min
+                      mr-[30px]
+                      mb-[20px]
+                      py-[10px]
+                      px-[20px]
+                    "
+                  >
                     <div>
-                      <h1 class="text-[#3A3A3A] text-[15px]">Manufacturing Year</h1>
+                      <h1 class="text-[#3A3A3A] text-[15px]">
+                        Manufacturing Year
+                      </h1>
                     </div>
                     <div>
                       <h1 class="font-bold text-[15px]">2016</h1>
                     </div>
                   </div>
-                  <div class="flex justify-between bg-[#F8F8F8] rounded-[10px] h-min mr-[30px] mb-[20px] py-[10px] px-[20px]">
+                  <div
+                    class="
+                      flex
+                      justify-between
+                      bg-[#F8F8F8]
+                      rounded-[10px]
+                      h-min
+                      mr-[30px]
+                      mb-[20px]
+                      py-[10px]
+                      px-[20px]
+                    "
+                  >
                     <div>
                       <h1 class="text-[#3A3A3A] text-[15px]">Paint</h1>
                     </div>
@@ -75,9 +134,23 @@
                   </div>
                 </div>
                 <div>
-                  <div class="flex justify-between bg-[#F8F8F8] rounded-[10px] h-min mr-[30px] mb-[20px] py-[10px] px-[20px]">
+                  <div
+                    class="
+                      flex
+                      justify-between
+                      bg-[#F8F8F8]
+                      rounded-[10px]
+                      h-min
+                      mr-[30px]
+                      mb-[20px]
+                      py-[10px]
+                      px-[20px]
+                    "
+                  >
                     <div>
-                      <h1 class="text-[#3A3A3A] text-[15px]">Regional Specification</h1>
+                      <h1 class="text-[#3A3A3A] text-[15px]">
+                        Regional Specification
+                      </h1>
                     </div>
                     <div>
                       <h1 class="font-bold text-[15px]">Specs</h1>
@@ -85,7 +158,19 @@
                   </div>
                 </div>
                 <div class="grid grid-cols-2">
-                  <div class="flex justify-between bg-[#F8F8F8] rounded-[10px] h-min mr-[30px] mb-[20px] py-[10px] px-[20px]">
+                  <div
+                    class="
+                      flex
+                      justify-between
+                      bg-[#F8F8F8]
+                      rounded-[10px]
+                      h-min
+                      mr-[30px]
+                      mb-[20px]
+                      py-[10px]
+                      px-[20px]
+                    "
+                  >
                     <div>
                       <h1 class="text-[#3A3A3A] text-[15px]">Chasis Case</h1>
                     </div>
@@ -93,7 +178,19 @@
                       <h1 class="font-bold text-[15px]">23123</h1>
                     </div>
                   </div>
-                  <div class="flex justify-between bg-[#F8F8F8] rounded-[10px] h-min mr-[30px] mb-[20px] py-[10px] px-[20px]">
+                  <div
+                    class="
+                      flex
+                      justify-between
+                      bg-[#F8F8F8]
+                      rounded-[10px]
+                      h-min
+                      mr-[30px]
+                      mb-[20px]
+                      py-[10px]
+                      px-[20px]
+                    "
+                  >
                     <div>
                       <h1 class="text-[#3A3A3A] text-[15px]">Kilometer</h1>
                     </div>
@@ -101,7 +198,19 @@
                       <h1 class="font-bold text-[15px]">321</h1>
                     </div>
                   </div>
-                  <div class="flex justify-between bg-[#F8F8F8] rounded-[10px] h-min mr-[30px] mb-[20px] py-[10px] px-[20px]">
+                  <div
+                    class="
+                      flex
+                      justify-between
+                      bg-[#F8F8F8]
+                      rounded-[10px]
+                      h-min
+                      mr-[30px]
+                      mb-[20px]
+                      py-[10px]
+                      px-[20px]
+                    "
+                  >
                     <div>
                       <h1 class="text-[#3A3A3A] text-[15px]">Color</h1>
                     </div>
@@ -109,7 +218,19 @@
                       <h1 class="font-bold text-[15px]">Red</h1>
                     </div>
                   </div>
-                  <div class="flex justify-between bg-[#F8F8F8] rounded-[10px] h-min mr-[30px] mb-[20px] py-[10px] px-[20px]">
+                  <div
+                    class="
+                      flex
+                      justify-between
+                      bg-[#F8F8F8]
+                      rounded-[10px]
+                      h-min
+                      mr-[30px]
+                      mb-[20px]
+                      py-[10px]
+                      px-[20px]
+                    "
+                  >
                     <div>
                       <h1 class="text-[#3A3A3A] text-[15px]">Fuel Type</h1>
                     </div>
@@ -117,7 +238,19 @@
                       <h1 class="font-bold text-[15px]">Electric</h1>
                     </div>
                   </div>
-                  <div class="flex justify-between bg-[#F8F8F8] rounded-[10px] h-min mr-[30px] mb-[20px] py-[10px] px-[20px]">
+                  <div
+                    class="
+                      flex
+                      justify-between
+                      bg-[#F8F8F8]
+                      rounded-[10px]
+                      h-min
+                      mr-[30px]
+                      mb-[20px]
+                      py-[10px]
+                      px-[20px]
+                    "
+                  >
                     <div>
                       <h1 class="text-[#3A3A3A] text-[15px]">Transmmission</h1>
                     </div>
@@ -126,16 +259,30 @@
                     </div>
                   </div>
                 </div>
-                 <div class="bg-[#F8F8F8] rounded-[10px] h-min mr-[30px] mb-[20px] py-[10px] px-[20px]">
-                    <div>
-                      <h1 class="font-bold text-[15px]">Description</h1>
-                    </div>
-                    <div>
-                      <h1 class="text-[#858585] text-[14px]">Semper consectetur vestibulum, eu auctor cras maecenas pellentesque. 
-                        Consectetur rhoncus pharetra nunc nulla neque, habitant bibendum ac praesent. 
-                        Rutrum nec dictum massa nisl sem morbi ultrices id pretium. Pellentesque imperdiet inter</h1>
-                    </div>
+                <div
+                  class="
+                    bg-[#F8F8F8]
+                    rounded-[10px]
+                    h-min
+                    mr-[30px]
+                    mb-[20px]
+                    py-[10px]
+                    px-[20px]
+                  "
+                >
+                  <div>
+                    <h1 class="font-bold text-[15px]">Description</h1>
                   </div>
+                  <div>
+                    <h1 class="text-[#858585] text-[14px]">
+                      Semper consectetur vestibulum, eu auctor cras maecenas
+                      pellentesque. Consectetur rhoncus pharetra nunc nulla
+                      neque, habitant bibendum ac praesent. Rutrum nec dictum
+                      massa nisl sem morbi ultrices id pretium. Pellentesque
+                      imperdiet inter
+                    </h1>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -222,14 +369,7 @@
                     >
                       <div class="flex">
                         <h1 class="mr-[25px] text-[18px]">032124xxxx</h1>
-                        <h1
-                          class="
-                            pt-[5px]
-                            text-[12px]
-                            w-[100px]
-                            underline
-                          "
-                        >
+                        <h1 class="pt-[5px] text-[12px] w-[100px] underline">
                           Show Number
                         </h1>
                       </div>
@@ -253,7 +393,6 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>

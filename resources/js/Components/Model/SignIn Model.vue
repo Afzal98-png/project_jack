@@ -1,5 +1,4 @@
 <template>
-<Head title="Password Verificaton" />
   <TransitionRoot :show="isOpen" as="template">
     <Dialog :initialFocus="completeButtonRef" :open="isOpen" @close="setIsOpen">
       <div class="fixed inset-0 bg-black/30" aria-hidden="true" />
@@ -15,8 +14,10 @@
             leave-to="opacity-0 scale-95"
           >
             <DialogPanel
+              :open="isOpen"
+              @close="setIsOpen"
               class="
-                w-full w-80
+                w-80
                 transform
                 overflow-hidden
                 rounded-2xl
@@ -30,25 +31,40 @@
             >
               <div class="flex justify-end">
                 <button>
-                  <XIcon @click="setIsOpen(false)" class="h-[23px] w-[23px]" />
+                  <XIcon
+                  @click="setIsOpen(false)"
+                  class="h-[23px] w-[23px]"
+                />
                 </button>
               </div>
               <DialogTitle as="h3" class="grid place-content-center">
                 <img class="w-24" src="images/logo.png" alt="logo" />
               </DialogTitle>
-              <div>
-                <h1 class="text-sm font-bold mt-1 mb-6 mt-5">
-                  No Need to worry !
+              <div class="grid place-content-center">
+                <h1 class="text-sm mt-1 mb-2 font-bold">
+                  Please Login to your account
                 </h1>
               </div>
-              <div>
-                <h1 class="text-sm text-gray-500 mt-1 mb-3">
-                  Verification link has been sent to your email
-                  <span class="font-bold text-black">test@gmail.com</span>
-                </h1>
-              </div>
-              <div class="mt-24">
+              <div class="mt-2">
                 <form>
+                  <TextField
+                    class="mb-5"
+                    fieldtype="email"
+                    name="email"
+                    placeholder="Enter your email address"
+                  >
+                    Email
+                  </TextField>
+                  <TextField
+                    fieldtype="Password"
+                    name="Password"
+                    placeholder="Password"
+                  >
+                    Password
+                  </TextField>
+                  <div class="flex justify-end text-xs text-[#24C6C9]">
+                    <a href="/forgot-password">Forgot Password?</a>
+                  </div>
                   <div
                     class="
                       flex
@@ -57,13 +73,16 @@
                       text-white
                       rounded-lg
                       py-2
-                      mt-5
-                      mb-10
+                      my-5
                     "
                   >
-                    <button>
-                      <Link href="/new-password" class="text-white">Next</Link>
-                    </button>
+                    <button>Login</button>
+                  </div>
+                  <div class="text-center text-xs">
+                    <h1>Don't have account ?</h1>
+                    <Link href="/signup" class="text-[#24C6C9]"
+                      >Create Account</Link
+                    >
                   </div>
                 </form>
               </div>

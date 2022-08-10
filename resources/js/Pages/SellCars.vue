@@ -1,5 +1,5 @@
 <template>
-  <Head title="Request Service 1" />
+  <Head title="Sell Cars" />
 
   <div class="min-h-screen bg-[#FFFFFF] grid grid-cols-7">
     <!-- Home Left Index -->
@@ -22,7 +22,7 @@
             </div>
             <div>
               <form action="">
-                <div>
+                <div class="mb-[30px]">
                  <SelectOptionField
                     selectedOption="Type"
                     name="type"
@@ -30,7 +30,7 @@
                     <h1 class="font-bold"></h1>
                   </SelectOptionField>
                 </div>
-                <div>
+                <div class="mb-[30px]">
                   <SelectOptionField
                       selectedOption="Category"
                       name="category"
@@ -38,7 +38,7 @@
                       <h1 class="font-bold"></h1>
                     </SelectOptionField>
                 </div>
-                <div>
+                <div class="mb-[30px]">
                   <SelectOptionField
                       selectedOption="Manufacturing Year"
                       name="manufacturing_year"
@@ -46,7 +46,7 @@
                       <h1 class="font-bold"></h1>
                     </SelectOptionField>
                 </div>
-                <div>
+                <div class="mb-[30px]">
                   <SelectOptionField
                       selectedOption="Regional Specification"
                       name="regional_specification"
@@ -54,7 +54,7 @@
                       <h1 class="font-bold"></h1>
                     </SelectOptionField>
                 </div>
-                <div>
+                <div class="mb-[30px]">
                   <SelectOptionField
                       selectedOption="Paint"
                       name="paint"
@@ -62,7 +62,7 @@
                       <h1 class="font-bold"></h1>
                     </SelectOptionField>
                 </div>
-                <div>
+                <div class="mb-[30px]">
                   <SelectOptionField
                       selectedOption="Chasis Case"
                       name="chasis_case"
@@ -70,7 +70,7 @@
                       <h1 class="font-bold"></h1>
                     </SelectOptionField>
                 </div>
-                <div>
+                <div class="mb-[30px]">
                   <SelectOptionField
                       selectedOption="Kilo Meters"
                       name="kilo_meters"
@@ -78,7 +78,7 @@
                       <h1 class="font-bold"></h1>
                     </SelectOptionField>
                 </div>
-                <div>
+                <div class="mb-[30px]">
                   <SelectOptionField
                       selectedOption="Color"
                       name="color"
@@ -126,7 +126,7 @@
                   </div>
                 </div>
 
-                <div>
+                <div class="mb-[30px]">
                   <TextField
                     fieldtype="text"
                     name="name"
@@ -135,7 +135,7 @@
                     <h1 class="font-bold"></h1>
                   </TextField>
                 </div>
-                <div>
+                <div class="mb-[30px]">
                   <DescriptionTextField
                     fieldtype="text"
                     name="description"
@@ -144,7 +144,7 @@
                     <h1 class="font-bold"></h1>
                   </DescriptionTextField>
                 </div>
-                <div>
+                <div class="mb-[30px]">
                   <TextField
                     fieldtype="text"
                     name="price"
@@ -153,7 +153,7 @@
                     <h1 class="font-bold"></h1>
                   </TextField>
                 </div>
-                <div>
+                <div class="mb-[30px]">
                   <TextField
                     fieldtype="text"
                     name="location"

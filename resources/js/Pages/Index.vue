@@ -4,7 +4,7 @@
     <!-- Navbar -->
     <IndexHead></IndexHead>
     <!-- Main Screen -->
-    <div class="grid grid-cols-2 bg-[#24C6C9] min-h-screen pl-[120px]">
+    <div class="grid sm:grid-cols-1 lg:grid-cols-2 bg-[#24C6C9] min-h-screen pl-[120px]">
       <div class="self-center">
         <div class="font-medium text-[50px] text-white mb-[100px]">
           Lorem ipsum dolor sit amet, consectetur
@@ -37,7 +37,7 @@
         <img src="images/Line 1.png" alt="line 1" />
       </div>
     </div>
-    <div class="grid grid-cols-3 gap-[100px] mx-[115px]">
+    <div class="grid sm:grid-cols-1 lg:grid-cols-3 gap-[100px] lg:mx-[115px]">
       <div class="bg-green-100 p-[85px] rounded-[18px]">
         <div class="grid place-content-center">
           <img class="mb-8" src="images/Oil.png" alt="oil" />
@@ -100,7 +100,7 @@
         <img src="images/Line 2.png" alt="line 2" />
       </div>
     </div>
-    <div class="flex place-content-center text-white pb-[130px]">
+    <div class="lg:flex place-content-center text-white pb-[130px]">
       <div class="flex mr-[65px]">
         <div class="mr-[30px]">
           <img class="" src="images/Ellipse 2.png" alt="Ellipse" />
@@ -182,7 +182,7 @@
 
   <!-- Footer -->
   <div>
-    <div class="flex justify-center bg-[#095C5E] py-[60px]">
+    <div class="lg:flex justify-center bg-[#095C5E] py-[60px]">
       <div class="text-white">
         <div class="w-40 mb-[40px]">
           <img src="images/logo.png" alt="logo" />
@@ -280,6 +280,9 @@
       </h1>
     </div>
   </div>
+
+  <!-- Model -->
+  <SignInModel />
 </template>
 
 <script setup>

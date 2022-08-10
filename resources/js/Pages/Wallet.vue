@@ -33,10 +33,17 @@
                 <h1 class="text-[16px] font-bold">Cards</h1>
               </div>
               <div>
-                <div class="border-2 border-[#24C6C9] rounded-[12px] p-[30px] mb-[20px]">
+                <div
+                  class="
+                    border-2 border-[#24C6C9]
+                    rounded-[12px]
+                    p-[30px]
+                    mb-[20px]
+                  "
+                >
                   <div class="flex justify-between">
                     <div>
-                      <img src="images/path3789.png" alt="">
+                      <img src="images/path3789.png" alt="" />
                     </div>
                     <div>
                       <h1 class="text-[#858585] text-[16px]">Debit</h1>
@@ -46,10 +53,17 @@
                     <h1 class="text-[16px]">1111 2222 3333 4444</h1>
                   </div>
                 </div>
-                <div class="border-2 border-[#24C6C9] rounded-[12px] p-[30px] mb-[20px]">
+                <div
+                  class="
+                    border-2 border-[#24C6C9]
+                    rounded-[12px]
+                    p-[30px]
+                    mb-[20px]
+                  "
+                >
                   <div class="flex justify-between">
                     <div>
-                      <img src="images/Group.png" alt="">
+                      <img src="images/Group.png" alt="" />
                     </div>
                     <div>
                       <h1 class="text-[#858585] text-[16px]">Debit</h1>
@@ -59,10 +73,17 @@
                     <h1 class="text-[16px]">1111 2222 3333 4444</h1>
                   </div>
                 </div>
-                <div class="border-2 border-[#24C6C9] rounded-[12px] p-[25px] mb-[20px]">
-                    <div class="flex place-content-center px-[140px] py-[70px]">
-                      <img src="images/add-alt.png" alt="">
-                    </div>
+                <div
+                  class="
+                    border-2 border-dashed border-[#858585]
+                    rounded-[12px]
+                    p-[25px]
+                    mb-[20px]
+                  "
+                >
+                  <div class="flex place-content-center px-[140px] py-[70px]">
+                    <img src="images/add-alt.png" alt="" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -76,11 +97,15 @@
             <div class="mt-[22px]">
               <div class="bg-white rounded-[10px] p-[30px] mb-[20px]">
                 <div class="flex">
-                  <div class="span-cols-1 mr-[30px]">
-                    <img src="images/minus-circle-line.png" alt="" />
+                  <div>
+                    <img
+                      class=""
+                      src="images/minus-circle-line.png"
+                      alt=""
+                    />
                   </div>
                   <div class="flex">
-                    <div class="w-[320px]">
+                    <div class="w-[320px] pl-[28px]">
                       <div>
                         <h1 class="text-[20px]">Moj Shipping Service</h1>
                       </div>
@@ -102,11 +127,11 @@
 
               <div class="bg-white rounded-[10px] p-[30px] mb-[20px]">
                 <div class="flex">
-                  <div class="span-cols-1 mr-[30px]">
+                  <div>
                     <img src="images/minus-circle-line.png" alt="" />
                   </div>
                   <div class="flex">
-                    <div class="w-[320px]">
+                    <div class="w-[320px] pl-[28px]">
                       <div>
                         <h1 class="text-[20px]">Moj Shipping Service</h1>
                       </div>
@@ -128,11 +153,11 @@
 
               <div class="bg-white rounded-[10px] p-[30px] mb-[20px]">
                 <div class="flex">
-                  <div class="span-cols-1 mr-[30px]">
+                  <div>
                     <img src="images/minus-circle-line.png" alt="" />
                   </div>
                   <div class="flex">
-                    <div class="w-[320px]">
+                    <div class="w-[320px] pl-[28px]">
                       <div>
                         <h1 class="text-[20px]">Moj Shipping Service</h1>
                       </div>
@@ -152,13 +177,13 @@
                 </div>
               </div>
 
-              <div class="bg-white rounded-[10px] p-[30px]">
+              <div class="bg-white rounded-[10px] p-[30px] mb-[20px]">
                 <div class="flex mb-[20px]">
-                  <div class="span-cols-1 mr-[30px]">
+                  <div>
                     <img src="images/add-green-alt.png" alt="" />
                   </div>
                   <div class="flex">
-                    <div class="w-[320px]">
+                    <div class="w-[320px] pl-[28px]">
                       <div>
                         <h1 class="text-[20px]">Top Up</h1>
                       </div>
@@ -180,11 +205,11 @@
 
               <div class="bg-white rounded-[10px] p-[30px] mb-[20px]">
                 <div class="flex">
-                  <div class="span-cols-1 mr-[30px]">
+                  <div>
                     <img src="images/minus-circle-line.png" alt="" />
                   </div>
                   <div class="flex">
-                    <div class="w-[320px]">
+                    <div class="w-[320px] pl-[28px]">
                       <div>
                         <h1 class="text-[20px]">Moj Shipping Service</h1>
                       </div>
@@ -206,11 +231,11 @@
 
               <div class="bg-white rounded-[10px] p-[30px]">
                 <div class="flex mb-[20px]">
-                  <div class="span-cols-1 mr-[30px]">
+                  <div>
                     <img src="images/add-green-alt.png" alt="" />
                   </div>
                   <div class="flex">
-                    <div class="w-[320px]">
+                    <div class="w-[320px] pl-[28px]">
                       <div>
                         <h1 class="text-[20px]">Top Up</h1>
                       </div>
@@ -229,10 +254,8 @@
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
-
         </div>
       </div>
     </div>

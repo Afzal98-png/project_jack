@@ -1,4 +1,5 @@
 <template>
+<Head title="Signin" />
   <TransitionRoot :show="isOpen" as="template">
     <Dialog :initialFocus="completeButtonRef" :open="isOpen" @close="setIsOpen">
       <div class="fixed inset-0 bg-black/30" aria-hidden="true" />
@@ -17,7 +18,7 @@
               :open="isOpen"
               @close="setIsOpen"
               class="
-                w-full w-80
+                w-80
                 transform
                 overflow-hidden
                 rounded-2xl
@@ -29,14 +30,21 @@
                 transition-all
               "
             >
-              <div>
-                <XIcon class="h-5 w-5 text-blue-500" />
+              <div class="flex justify-end">
+                <button>
+                  <XIcon
+                  @click="setIsOpen(false)"
+                  class="h-[23px] w-[23px]"
+                />
+                </button>
               </div>
               <DialogTitle as="h3" class="grid place-content-center">
                 <img class="w-24" src="images/logo.png" alt="logo" />
               </DialogTitle>
               <div class="grid place-content-center">
-                <h1 class="text-sm mt-1 mb-2">Please Login to your account</h1>
+                <h1 class="text-sm mt-1 mb-2 font-bold">
+                  Please Login to your account
+                </h1>
               </div>
               <div class="mt-2">
                 <form>
@@ -73,7 +81,9 @@
                   </div>
                   <div class="text-center text-xs">
                     <h1>Don't have account ?</h1>
-                    <a class="text-[#24C6C9]" href="/signup">Create Account</a>
+                    <Link href="/signup" class="text-[#24C6C9]"
+                      >Create Account</Link
+                    >
                   </div>
                 </form>
               </div>
@@ -95,8 +105,6 @@ import {
   DialogTitle,
   DialogDescription,
 } from "@headlessui/vue";
-import TextField from "@/Components/Form/TextField.vue";
-import { XIcon } from "@heroicons/vue/outline";
 
 const isOpen = ref(true);
 

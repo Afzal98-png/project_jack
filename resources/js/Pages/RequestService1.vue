@@ -14,7 +14,14 @@
         <div class="grid grid-cols-3">
           <div class="col-span-2 pr-[39px]">
             <div
-              class="flex justify-between text-sm mt-[44px] mb-[26px] mr-[115px]"
+              class="
+                flex
+                justify-between
+                text-sm
+                mt-[44px]
+                mb-[26px]
+                mr-[115px]
+              "
             >
               <div>
                 <h1 class="text-[16px] font-bold">Request Service</h1>
@@ -22,39 +29,30 @@
             </div>
             <div>
               <form action="">
-                <div>
-                 <SelectOptionField
+                <div class="mb-[30px]">
+                  <SelectOptionField
                     selectedOption="Towing and Shipping"
                     name="service_type"
                   >
                     <h1 class="font-bold">Service Type</h1>
                   </SelectOptionField>
                 </div>
-                <div>
-                  <SelectOptionField
-                      selectedOption="Brand"
-                      name="choose_brand"
-                    >
-                      <h1 class="font-bold">Choose Brand</h1>
-                    </SelectOptionField>
+                <div class="mb-[30px]">
+                  <SelectOptionField selectedOption="Brand" name="choose_brand">
+                    <h1 class="font-bold">Choose Brand</h1>
+                  </SelectOptionField>
                 </div>
-                <div>
-                  <SelectOptionField
-                      selectedOption="Type"
-                      name="choose_type"
-                    >
-                      <h1 class="font-bold">Choose Type</h1>
-                    </SelectOptionField>
+                <div class="mb-[30px]">
+                  <SelectOptionField selectedOption="Type" name="choose_type">
+                    <h1 class="font-bold">Choose Type</h1>
+                  </SelectOptionField>
                 </div>
-                <div>
-                  <SelectOptionField
-                      selectedOption="Model"
-                      name="choose_model"
-                    >
-                      <h1 class="font-bold">Choose Model</h1>
-                    </SelectOptionField>
+                <div class="mb-[30px]">
+                  <SelectOptionField selectedOption="Model" name="choose_model">
+                    <h1 class="font-bold">Choose Model</h1>
+                  </SelectOptionField>
                 </div>
-                <div>
+                <div class="mb-[30px]">
                   <TextField
                     fieldtype="text"
                     name="color"
@@ -63,7 +61,7 @@
                     <h1 class="font-bold">Choose Color</h1>
                   </TextField>
                 </div>
-                <div>
+                <div class="mb-[30px]">
                   <TextField
                     fieldtype="text"
                     name="plate_number"
@@ -72,7 +70,7 @@
                     <h1 class="font-bold">Plate Number</h1>
                   </TextField>
                 </div>
-                <div>
+                <div class="mb-[30px]">
                   <TextField
                     fieldtype="text"
                     name="location_from"
@@ -81,7 +79,7 @@
                     <h1 class="font-bold">Location From</h1>
                   </TextField>
                 </div>
-                <div>
+                <div class="mb-[30px]">
                   <TextField
                     fieldtype="text"
                     name="location_to"
@@ -94,7 +92,7 @@
                   <FormButton>Post Request</FormButton>
                 </div>
               </form>
-            </div> 
+            </div>
           </div>
           <div>
             <ImageField />
@@ -106,5 +104,4 @@
 </template>
 
 <script setup>
-
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <Head title="Profile" />
+  <Head title="Profile Seller" />
 
   <div class="min-h-screen bg-gray-100 grid grid-cols-7">
     <!-- Home Left Index -->
@@ -33,17 +33,35 @@
         <div class="bg-white col-span-6 rounded-[20px] px-[40px] py-[40px] ml-[40px]">
           <div class="flex mb-[24px]">
             <div class="mr-5">
-              <button class="bg-[#24C6C9] text-white text-[16px] rounded-[4px] px-[30px] py-[8px]">General</button>
+              <button
+                class="
+                  bg-[#24C6C9]
+                  text-white text-[16px]
+                  rounded-[4px]
+                  px-[30px]
+                  py-[8px]
+                "
+              >
+                <Link href="/profile-seller">General</Link>
+              </button>
             </div>
             <div class="mr-5">
-              <button class="bg-gray-100 text-[16px] rounded-[4px] px-[30px] py-[8px]">Other</button>
+              <button
+                class="bg-gray-100 text-[16px] rounded-[4px] px-[30px] py-[8px]"
+              >
+                <Link href="/profile-seller-update">Other</Link>
+              </button>
             </div>
             <div class="mr-5">
-              <button class="bg-gray-100 text-[16px] rounded-[4px] px-[30px] py-[8px]">Reviews</button>
+              <button
+                class="bg-gray-100 text-[16px] rounded-[4px] px-[30px] py-[8px]"
+              >
+                <Link href="/profile-seller-reviews">Reviews</Link>
+              </button>
             </div>
           </div>
           <div>
-            <h1 class="text-[16px]">Personal Information</h1>
+            <h1 class="text-[16px] font-bold">Personal Information</h1>
           </div>
           <form action="">
             <div>
@@ -79,7 +97,7 @@
               </ProfileTextField>
             </div>
             <div>
-              <h1 class="text-[16px]">Contact Information</h1>
+              <h1 class="text-[16px] font-bold">Contact Information</h1>
             </div>
             <div>
               <ProfileTextField

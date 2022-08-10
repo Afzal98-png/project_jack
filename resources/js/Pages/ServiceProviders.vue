@@ -1,5 +1,5 @@
 <template>
-  <Head title="Home" />
+  <Head title="Service Providers" />
 
   <div class="min-h-screen bg-gray-100 grid grid-cols-7">
     <!-- Home Left Index -->

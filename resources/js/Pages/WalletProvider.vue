@@ -67,7 +67,7 @@
               </div>
             </div>
           </div>
-
+          
           <div class="col-span-5 mt-[70px]">
             <div>
               <h1 class="text-[16px] font-bold">Wallet Transactions</h1>
@@ -76,11 +76,15 @@
             <div class="mt-[22px]">
               <div class="bg-white rounded-[10px] p-[30px] mb-[20px]">
                 <div class="flex">
-                  <div class="span-cols-1 mr-[30px]">
-                    <img src="images/minus-circle-line.png" alt="" />
+                  <div>
+                    <img
+                      class=""
+                      src="images/minus-circle-line.png"
+                      alt=""
+                    />
                   </div>
                   <div class="flex">
-                    <div class="w-[320px]">
+                    <div class="w-[320px] pl-[28px]">
                       <div>
                         <h1 class="text-[20px]">Moj Shipping Service</h1>
                       </div>
@@ -102,11 +106,11 @@
 
               <div class="bg-white rounded-[10px] p-[30px] mb-[20px]">
                 <div class="flex">
-                  <div class="span-cols-1 mr-[30px]">
+                  <div>
                     <img src="images/minus-circle-line.png" alt="" />
                   </div>
                   <div class="flex">
-                    <div class="w-[320px]">
+                    <div class="w-[320px] pl-[28px]">
                       <div>
                         <h1 class="text-[20px]">Moj Shipping Service</h1>
                       </div>
@@ -128,11 +132,11 @@
 
               <div class="bg-white rounded-[10px] p-[30px] mb-[20px]">
                 <div class="flex">
-                  <div class="span-cols-1 mr-[30px]">
+                  <div>
                     <img src="images/minus-circle-line.png" alt="" />
                   </div>
                   <div class="flex">
-                    <div class="w-[320px]">
+                    <div class="w-[320px] pl-[28px]">
                       <div>
                         <h1 class="text-[20px]">Moj Shipping Service</h1>
                       </div>
@@ -152,13 +156,13 @@
                 </div>
               </div>
 
-              <div class="bg-white rounded-[10px] p-[30px]">
+              <div class="bg-white rounded-[10px] p-[30px] mb-[20px]">
                 <div class="flex mb-[20px]">
-                  <div class="span-cols-1 mr-[30px]">
+                  <div>
                     <img src="images/add-green-alt.png" alt="" />
                   </div>
                   <div class="flex">
-                    <div class="w-[320px]">
+                    <div class="w-[320px] pl-[28px]">
                       <div>
                         <h1 class="text-[20px]">Top Up</h1>
                       </div>
@@ -180,11 +184,11 @@
 
               <div class="bg-white rounded-[10px] p-[30px] mb-[20px]">
                 <div class="flex">
-                  <div class="span-cols-1 mr-[30px]">
+                  <div>
                     <img src="images/minus-circle-line.png" alt="" />
                   </div>
                   <div class="flex">
-                    <div class="w-[320px]">
+                    <div class="w-[320px] pl-[28px]">
                       <div>
                         <h1 class="text-[20px]">Moj Shipping Service</h1>
                       </div>
@@ -206,11 +210,11 @@
 
               <div class="bg-white rounded-[10px] p-[30px]">
                 <div class="flex mb-[20px]">
-                  <div class="span-cols-1 mr-[30px]">
+                  <div>
                     <img src="images/add-green-alt.png" alt="" />
                   </div>
                   <div class="flex">
-                    <div class="w-[320px]">
+                    <div class="w-[320px] pl-[28px]">
                       <div>
                         <h1 class="text-[20px]">Top Up</h1>
                       </div>
@@ -229,7 +233,6 @@
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
 

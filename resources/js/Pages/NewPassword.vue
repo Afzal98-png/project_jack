@@ -1,4 +1,5 @@
 <template>
+<Head title="New Password" />
   <TransitionRoot :show="isOpen" as="template">
     <Dialog :initialFocus="completeButtonRef" :open="isOpen" @close="setIsOpen">
       <div class="fixed inset-0 bg-black/30" aria-hidden="true" />
@@ -27,11 +28,18 @@
                 transition-all
               "
             >
+              <div class="flex justify-end">
+                <button>
+                  <XIcon @click="setIsOpen(false)" class="h-[23px] w-[23px]" />
+                </button>
+              </div>
               <DialogTitle as="h3" class="grid place-content-center">
                 <img class="w-24" src="images/logo.png" alt="logo" />
               </DialogTitle>
               <div>
-                <h1 class="text-sm mt-1 mt-5">Enter a new password</h1>
+                <h1 class="text-sm font-bold mt-1 mt-5">
+                  Enter a new password
+                </h1>
               </div>
               <div class="mt-2">
                 <form>
@@ -59,7 +67,9 @@
                       mb-10
                     "
                   >
-                    <button><a href="/newpassword">Done</a></button>
+                    <button><Link href="" class="text-white"
+                      >Done</Link
+                    ></button>
                   </div>
                 </form>
               </div>

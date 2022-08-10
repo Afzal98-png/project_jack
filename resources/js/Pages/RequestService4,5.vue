@@ -29,7 +29,7 @@
             </div>
             <div>
               <form action="">
-                <div>
+                <div class="mb-[30px]">
                   <SelectOptionField
                     selectedOption="Deportation and Baggage transfer"
                     name="service_type"
@@ -37,12 +37,12 @@
                     <h1 class="font-bold">Service Type</h1>
                   </SelectOptionField>
                 </div>
-                <div>
+                <div class="mb-[30px]">
                   <SelectOptionField selectedOption="shipment_type" name="type">
                     <h1 class="font-bold">Shipment Type</h1>
                   </SelectOptionField>
                 </div>
-                <div>
+                <div class="mb-[30px]">
                   <TextField
                     fieldtype="text"
                     name="weight"
@@ -51,7 +51,7 @@
                     <h1 class="font-bold">Location From</h1>
                   </TextField>
                 </div>
-                <div>
+                <div class="mb-[30px]">
                   <TextField
                     fieldtype="text"
                     name="size"
@@ -60,7 +60,7 @@
                     <h1 class="font-bold">Size</h1>
                   </TextField>
                 </div>
-                <div>
+                <div class="mb-[30px]">
                   <TextField
                     fieldtype="text"
                     name="location_from"

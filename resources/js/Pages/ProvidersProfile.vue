@@ -1,5 +1,5 @@
 <template>
-  <Head title="Home" />
+  <Head title="Provider Profile" />
 
   <div class="min-h-screen bg-gray-100 grid grid-cols-7">
     <!-- Home Left Index -->
@@ -23,8 +23,20 @@
                 mr-[115px]
               "
             >
-              <div>
+              <div class="flex">
+                <div>
+                  <div class="relative bottom-[7px] mr-[15px]">
+                    <Link href="/signin"
+                      ><img
+                        class="w-[36px] h-[36px]"
+                        src="images/Back.png"
+                        alt=""
+                    /></Link>
+                  </div>
+                </div>
+                <div>
                 <h1 class="text-[16px] font-bold">Provider Details</h1>
+              </div>
               </div>
             </div>
 
@@ -190,21 +202,21 @@
               <div class="bg-white rounded-[26px] p-[30px]">
                 <div class="flex">
                   <div class="mr-[30px]">
-                    <img src="images/Group 30.png" alt="">
+                    <img src="images/Group 30.png" alt="" />
                   </div>
                   <div class="flex items-center mr-[10px]">
                     <div class="mr-[10px]">
                       <h1 class="font-bold text-[16px]">4.5</h1>
                     </div>
                     <div>
-                      <h1 class="text-[16px] text-[#858585]" >12 Reviews</h1>
+                      <h1 class="text-[16px] text-[#858585]">12 Reviews</h1>
                     </div>
                   </div>
                 </div>
                 <div class="mt-[13px]">
                   <div class="flex p-[10px]">
                     <div class="mr-[20px]">
-                      <img src="images/Ellipse 16.png" alt="">
+                      <img src="images/Ellipse 16.png" alt="" />
                     </div>
                     <div>
                       <div class="flex justify-between">
@@ -213,7 +225,11 @@
                         </div>
                         <div class="flex">
                           <div class="relative top-[4px] mr-[1px]">
-                            <img class="w-[12px] h-[12px]" src="images/Star.png" alt="">
+                            <img
+                              class="w-[12px] h-[12px]"
+                              src="images/Star.png"
+                              alt=""
+                            />
                           </div>
                           <div>
                             <h1 class="text-[14px] text-[#7C7C7C]">4.8</h1>
@@ -221,14 +237,18 @@
                         </div>
                       </div>
                       <div class="pr-[100px]">
-                        <h1 class="text-[#858585] text-[12px]">Imperdiet mus egestas porttitor eleifend pellentesque molestie <span class="text-[#24C6C9]">See more...</span></h1>
+                        <h1 class="text-[#858585] text-[12px]">
+                          Imperdiet mus egestas porttitor eleifend pellentesque
+                          molestie
+                          <span class="text-[#24C6C9]">See more...</span>
+                        </h1>
                       </div>
                     </div>
                   </div>
 
                   <div class="flex p-[10px]">
                     <div class="mr-[20px]">
-                      <img src="images/Ellipse 16.png" alt="">
+                      <img src="images/Ellipse 16.png" alt="" />
                     </div>
                     <div>
                       <div class="flex justify-between">
@@ -237,7 +257,11 @@
                         </div>
                         <div class="flex">
                           <div class="relative top-[4px] mr-[1px]">
-                            <img class="w-[12px] h-[12px]" src="images/Star.png" alt="">
+                            <img
+                              class="w-[12px] h-[12px]"
+                              src="images/Star.png"
+                              alt=""
+                            />
                           </div>
                           <div>
                             <h1 class="text-[14px] text-[#7C7C7C]">4.8</h1>
@@ -245,14 +269,18 @@
                         </div>
                       </div>
                       <div class="pr-[100px]">
-                        <h1 class="text-[#858585] text-[12px]">Imperdiet mus egestas porttitor eleifend pellentesque molestie <span class="text-[#24C6C9]">See more...</span></h1>
+                        <h1 class="text-[#858585] text-[12px]">
+                          Imperdiet mus egestas porttitor eleifend pellentesque
+                          molestie
+                          <span class="text-[#24C6C9]">See more...</span>
+                        </h1>
                       </div>
                     </div>
                   </div>
 
                   <div class="flex p-[10px]">
                     <div class="mr-[20px]">
-                      <img src="images/Ellipse 16.png" alt="">
+                      <img src="images/Ellipse 16.png" alt="" />
                     </div>
                     <div>
                       <div class="flex justify-between">
@@ -261,7 +289,11 @@
                         </div>
                         <div class="flex">
                           <div class="relative top-[4px] mr-[1px]">
-                            <img class="w-[12px] h-[12px]" src="images/Star.png" alt="">
+                            <img
+                              class="w-[12px] h-[12px]"
+                              src="images/Star.png"
+                              alt=""
+                            />
                           </div>
                           <div>
                             <h1 class="text-[14px] text-[#7C7C7C]">4.8</h1>
@@ -269,14 +301,18 @@
                         </div>
                       </div>
                       <div class="pr-[100px]">
-                        <h1 class="text-[#858585] text-[12px]">Imperdiet mus egestas porttitor eleifend pellentesque molestie <span class="text-[#24C6C9]">See more...</span></h1>
+                        <h1 class="text-[#858585] text-[12px]">
+                          Imperdiet mus egestas porttitor eleifend pellentesque
+                          molestie
+                          <span class="text-[#24C6C9]">See more...</span>
+                        </h1>
                       </div>
                     </div>
                   </div>
 
                   <div class="flex p-[10px]">
                     <div class="mr-[20px]">
-                      <img src="images/Ellipse 16.png" alt="">
+                      <img src="images/Ellipse 16.png" alt="" />
                     </div>
                     <div>
                       <div class="flex justify-between">
@@ -285,7 +321,11 @@
                         </div>
                         <div class="flex">
                           <div class="relative top-[4px] mr-[1px]">
-                            <img class="w-[12px] h-[12px]" src="images/Star.png" alt="">
+                            <img
+                              class="w-[12px] h-[12px]"
+                              src="images/Star.png"
+                              alt=""
+                            />
                           </div>
                           <div>
                             <h1 class="text-[14px] text-[#7C7C7C]">4.8</h1>
@@ -293,15 +333,17 @@
                         </div>
                       </div>
                       <div class="pr-[100px]">
-                        <h1 class="text-[#858585] text-[12px]">Imperdiet mus egestas porttitor eleifend pellentesque molestie <span class="text-[#24C6C9]">See more...</span></h1>
+                        <h1 class="text-[#858585] text-[12px]">
+                          Imperdiet mus egestas porttitor eleifend pellentesque
+                          molestie
+                          <span class="text-[#24C6C9]">See more...</span>
+                        </h1>
                       </div>
                     </div>
                   </div>
                 </div>
-              
               </div>
             </div>
-            
           </div>
         </div>
       </div>

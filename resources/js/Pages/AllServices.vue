@@ -1,5 +1,5 @@
 <template>
-  <Head title="Home" />
+  <Head title="All Services" />
 
   <div class="min-h-screen bg-gray-100 grid grid-cols-7">
     <!-- Home Left Index -->
@@ -15,8 +15,14 @@
           <div
             class="flex justify-between text-sm mt-[44px] mb-[26px] mr-[115px]"
           >
-            <div>
-              <h1 class="text-[16px]">All Services</h1>
+            <div class="flex">
+              <div class="relative bottom-[10px] mr-[15px]">
+                <Link href="/home"
+                  ><img class="w-[36px] h-[36px]" src="images/Back.png" alt=""
+                /></Link>
+              </div>
+              <h1 class="text-[16px] font-bold">All Services</h1>
+              <div></div>
             </div>
           </div>
 

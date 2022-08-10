@@ -1,5 +1,5 @@
 <template>
-  <Head title="Home" />
+  <Head title="Seller Orders" />
 
   <div class="min-h-screen bg-gray-100 grid grid-cols-7">
     <!-- Home Left Index -->
@@ -28,21 +28,21 @@
                   py-[8px]
                 "
               >
-                Active
+                <Link href="/orders-seller">Active</Link>
               </button>
             </div>
             <div class="mr-5">
               <button
                 class="bg-white text-[16px] rounded-[4px] px-[30px] py-[8px]"
               >
-                Cancelled
+                <Link href="/orders-seller-cancelled">Cancelled</Link>
               </button>
             </div>
             <div class="mr-5">
               <button
                 class="bg-white text-[16px] rounded-[4px] px-[30px] py-[8px]"
               >
-                Completed
+                <Link href="/orders-seller-copmleted">Completed</Link>
               </button>
             </div>
           </div>

@@ -1,4 +1,5 @@
 <template>
+<Head title="Forgot Password" />
   <TransitionRoot :show="isOpen" as="template">
     <Dialog :initialFocus="completeButtonRef" :open="isOpen" @close="setIsOpen">
       <div class="fixed inset-0 bg-black/30" aria-hidden="true" />
@@ -28,11 +29,19 @@
                 transition-all
               "
             >
+              <div class="flex justify-end">
+                <button>
+                  <XIcon
+                  @click="setIsOpen(false)"
+                  class="h-[23px] w-[23px]"
+                />
+                </button>
+              </div>
               <DialogTitle as="h3" class="grid place-content-center">
                 <img class="w-24" src="images/logo.png" alt="logo" />
               </DialogTitle>
               <div>
-                <h1 class="text-sm mt-1 mb-6 mt-5">No Need to worry !</h1>
+                <h1 class="text-sm font-bold mt-1 mb-6 mt-5">No Need to worry !</h1>
               </div>
               <div>
                 <h1 class="text-sm text-gray-500 mt-1 mb-3">Please enter email address</h1>
@@ -59,7 +68,9 @@
                       mb-10
                     "
                   >
-                    <button><a href="/password-verification">Next</a></button>
+                    <button><Link href="/password-verification" class="text-white"
+                      >Next</Link
+                    ></button>
                   </div>
                 </form>
               </div>
@@ -81,7 +92,6 @@ import {
   DialogTitle,
   DialogDescription,
 } from "@headlessui/vue";
-import TextField from "@/Components/Form/TextField.vue";
 
 const isOpen = ref(true);
 

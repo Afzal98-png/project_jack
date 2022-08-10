@@ -124,7 +124,7 @@ Route::get('/practice', function () {
 // Provider
 
 Route::get('/signup-provider', function () {
-    return Inertia::render('SignupProvider');
+    return Inertia::render('ProviderSignup');
 })->name('SignupProvider');
 
 Route::get('/home-provider', function () {

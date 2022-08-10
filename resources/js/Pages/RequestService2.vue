@@ -29,7 +29,7 @@
             </div>
             <div>
               <form action="">
-                <div>
+                <div class="mb-[30px]">
                   <SelectOptionField
                     selectedOption="Home Repair"
                     name="service_type"
@@ -37,22 +37,22 @@
                     <h1 class="font-bold">Service Type</h1>
                   </SelectOptionField>
                 </div>
-                <div>
+                <div class="mb-[30px]">
                   <SelectOptionField selectedOption="Brand" name="choose_brand">
                     <h1 class="font-bold">Choose Brand</h1>
                   </SelectOptionField>
                 </div>
-                <div>
+                <div class="mb-[30px]">
                   <SelectOptionField selectedOption="Type" name="choose_type">
                     <h1 class="font-bold">Choose Type</h1>
                   </SelectOptionField>
                 </div>
-                <div>
+                <div class="mb-[30px]">
                   <SelectOptionField selectedOption="Model" name="choose_model">
                     <h1 class="font-bold">Choose Model</h1>
                   </SelectOptionField>
                 </div>
-                <div>
+                <div class="mb-[30px]">
                   <TextField
                     fieldtype="text"
                     name="plate_number"
@@ -61,7 +61,7 @@
                     <h1 class="font-bold">Plate Number</h1>
                   </TextField>
                 </div>
-                <div>
+                <div class="mb-[30px]">
                   <TextField
                     fieldtype="text"
                     name="location_from"

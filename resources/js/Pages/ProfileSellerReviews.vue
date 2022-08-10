@@ -1,5 +1,5 @@
 <template>
-  <Head title="Profile" />
+  <Head title="Profile Seller Reviews" />
 
   <div class="min-h-screen bg-gray-100 grid grid-cols-7">
     <!-- Home Left Index -->
@@ -47,16 +47,16 @@
           <div class="flex mb-[24px]">
             <div class="mr-5">
               <button
-                class="bg-white text-[16px] rounded-[4px] px-[30px] py-[8px]"
+                class="bg-gray-100 text-[16px] rounded-[4px] px-[30px] py-[8px]"
               >
-                General
+                <Link href="/profile-provider">General</Link>
               </button>
             </div>
             <div class="mr-5">
               <button
-                class="bg-white text-[16px] rounded-[4px] px-[30px] py-[8px]"
+                class="bg-gray-100 text-[16px] rounded-[4px] px-[30px] py-[8px]"
               >
-                Other
+                <Link href="/profile-provider-other">Other</Link>
               </button>
             </div>
             <div class="mr-5">
@@ -69,13 +69,22 @@
                   py-[8px]
                 "
               >
-                Reviews
+                <Link href="/profile-provider-reviews">Reviews</Link>
               </button>
             </div>
           </div>
 
           <div class="bg-white rounded-[10px] px-[15px] py-[15px]">
-            <div class="flex bg-[#F8F8F8] rounded-[12px] px-[10px] py-[10px] mb-[14px]">
+            <div
+              class="
+                flex
+                bg-[#F8F8F8]
+                rounded-[12px]
+                px-[10px]
+                py-[10px]
+                mb-[14px]
+              "
+            >
               <div class="mr-[18px]">
                 <img
                   class="w-[38px] h-[38px]"
@@ -98,13 +107,22 @@
                   </div>
                 </div>
                 <div>
-                <h1 class="text-[#787878] text-[12px]">
-                  Lorem ipsum dolar sit amit
-                </h1>
-              </div>
+                  <h1 class="text-[#787878] text-[12px]">
+                    Lorem ipsum dolar sit amit
+                  </h1>
+                </div>
               </div>
             </div>
-            <div class="flex bg-[#F8F8F8] rounded-[12px] px-[10px] py-[10px] mb-[14px]">
+            <div
+              class="
+                flex
+                bg-[#F8F8F8]
+                rounded-[12px]
+                px-[10px]
+                py-[10px]
+                mb-[14px]
+              "
+            >
               <div class="mr-[18px]">
                 <img
                   class="w-[38px] h-[38px]"
@@ -127,13 +145,22 @@
                   </div>
                 </div>
                 <div>
-                <h1 class="text-[#787878] text-[12px]">
-                  Lorem ipsum dolar sit amit
-                </h1>
-              </div>
+                  <h1 class="text-[#787878] text-[12px]">
+                    Lorem ipsum dolar sit amit
+                  </h1>
+                </div>
               </div>
             </div>
-            <div class="flex bg-[#F8F8F8] rounded-[12px] px-[10px] py-[10px] mb-[14px]">
+            <div
+              class="
+                flex
+                bg-[#F8F8F8]
+                rounded-[12px]
+                px-[10px]
+                py-[10px]
+                mb-[14px]
+              "
+            >
               <div class="mr-[18px]">
                 <img
                   class="w-[38px] h-[38px]"
@@ -156,13 +183,22 @@
                   </div>
                 </div>
                 <div>
-                <h1 class="text-[#787878] text-[12px]">
-                  Lorem ipsum dolar sit amit
-                </h1>
-              </div>
+                  <h1 class="text-[#787878] text-[12px]">
+                    Lorem ipsum dolar sit amit
+                  </h1>
+                </div>
               </div>
             </div>
-            <div class="flex bg-[#F8F8F8] rounded-[12px] px-[10px] py-[10px] mb-[14px]">
+            <div
+              class="
+                flex
+                bg-[#F8F8F8]
+                rounded-[12px]
+                px-[10px]
+                py-[10px]
+                mb-[14px]
+              "
+            >
               <div class="mr-[18px]">
                 <img
                   class="w-[38px] h-[38px]"
@@ -185,13 +221,22 @@
                   </div>
                 </div>
                 <div>
-                <h1 class="text-[#787878] text-[12px]">
-                  Lorem ipsum dolar sit amit
-                </h1>
-              </div>
+                  <h1 class="text-[#787878] text-[12px]">
+                    Lorem ipsum dolar sit amit
+                  </h1>
+                </div>
               </div>
             </div>
-            <div class="flex bg-[#F8F8F8] rounded-[12px] px-[10px] py-[10px] mb-[14px]">
+            <div
+              class="
+                flex
+                bg-[#F8F8F8]
+                rounded-[12px]
+                px-[10px]
+                py-[10px]
+                mb-[14px]
+              "
+            >
               <div class="mr-[18px]">
                 <img
                   class="w-[38px] h-[38px]"
@@ -214,13 +259,22 @@
                   </div>
                 </div>
                 <div>
-                <h1 class="text-[#787878] text-[12px]">
-                  Lorem ipsum dolar sit amit
-                </h1>
-              </div>
+                  <h1 class="text-[#787878] text-[12px]">
+                    Lorem ipsum dolar sit amit
+                  </h1>
+                </div>
               </div>
             </div>
-            <div class="flex bg-[#F8F8F8] rounded-[12px] px-[10px] py-[10px] mb-[14px]">
+            <div
+              class="
+                flex
+                bg-[#F8F8F8]
+                rounded-[12px]
+                px-[10px]
+                py-[10px]
+                mb-[14px]
+              "
+            >
               <div class="mr-[18px]">
                 <img
                   class="w-[38px] h-[38px]"
@@ -243,13 +297,22 @@
                   </div>
                 </div>
                 <div>
-                <h1 class="text-[#787878] text-[12px]">
-                  Lorem ipsum dolar sit amit
-                </h1>
-              </div>
+                  <h1 class="text-[#787878] text-[12px]">
+                    Lorem ipsum dolar sit amit
+                  </h1>
+                </div>
               </div>
             </div>
-            <div class="flex bg-[#F8F8F8] rounded-[12px] px-[10px] py-[10px] mb-[14px]">
+            <div
+              class="
+                flex
+                bg-[#F8F8F8]
+                rounded-[12px]
+                px-[10px]
+                py-[10px]
+                mb-[14px]
+              "
+            >
               <div class="mr-[18px]">
                 <img
                   class="w-[38px] h-[38px]"
@@ -272,13 +335,22 @@
                   </div>
                 </div>
                 <div>
-                <h1 class="text-[#787878] text-[12px]">
-                  Lorem ipsum dolar sit amit
-                </h1>
-              </div>
+                  <h1 class="text-[#787878] text-[12px]">
+                    Lorem ipsum dolar sit amit
+                  </h1>
+                </div>
               </div>
             </div>
-            <div class="flex bg-[#F8F8F8] rounded-[12px] px-[10px] py-[10px] mb-[14px]">
+            <div
+              class="
+                flex
+                bg-[#F8F8F8]
+                rounded-[12px]
+                px-[10px]
+                py-[10px]
+                mb-[14px]
+              "
+            >
               <div class="mr-[18px]">
                 <img
                   class="w-[38px] h-[38px]"
@@ -301,13 +373,22 @@
                   </div>
                 </div>
                 <div>
-                <h1 class="text-[#787878] text-[12px]">
-                  Lorem ipsum dolar sit amit
-                </h1>
-              </div>
+                  <h1 class="text-[#787878] text-[12px]">
+                    Lorem ipsum dolar sit amit
+                  </h1>
+                </div>
               </div>
             </div>
-            <div class="flex bg-[#F8F8F8] rounded-[12px] px-[10px] py-[10px] mb-[14px]">
+            <div
+              class="
+                flex
+                bg-[#F8F8F8]
+                rounded-[12px]
+                px-[10px]
+                py-[10px]
+                mb-[14px]
+              "
+            >
               <div class="mr-[18px]">
                 <img
                   class="w-[38px] h-[38px]"
@@ -330,10 +411,10 @@
                   </div>
                 </div>
                 <div>
-                <h1 class="text-[#787878] text-[12px]">
-                  Lorem ipsum dolar sit amit
-                </h1>
-              </div>
+                  <h1 class="text-[#787878] text-[12px]">
+                    Lorem ipsum dolar sit amit
+                  </h1>
+                </div>
               </div>
             </div>
           </div>

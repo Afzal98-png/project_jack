@@ -1,5 +1,5 @@
 <template>
-  <Head title="Profile" />
+  <Head title="Profile Seller Update" />
 
   <div class="min-h-screen bg-gray-100 grid grid-cols-7">
     <!-- Home Left Index -->
@@ -33,13 +33,32 @@
         <div class="bg-white col-span-6 rounded-[20px] px-[40px] py-[40px] ml-[40px]">
           <div class="flex mb-[24px]">
             <div class="mr-5">
-              <button class="bg-gray-100 text-[16px] rounded-[4px] px-[30px] py-[8px]">General</button>
+              <button
+                class="
+                bg-gray-100
+                   text-[16px]
+                  rounded-[4px]
+                  px-[30px]
+                  py-[8px]
+                "
+              >
+                <Link href="/profile-provider">General</Link>
+              </button>
             </div>
             <div class="mr-5">
-              <button class="bg-[#24C6C9] text-white text-[16px] rounded-[4px] px-[30px] py-[8px]">Other</button>
+              <button
+                class="bg-[#24C6C9]
+                  text-white text-[16px] rounded-[4px] px-[30px] py-[8px]"
+              >
+                <Link href="/profile-provider-other">Other</Link>
+              </button>
             </div>
             <div class="mr-5">
-              <button class="bg-gray-100 text-[16px] rounded-[4px] px-[30px] py-[8px]">Reviews</button>
+              <button
+                class="bg-gray-100 text-[16px] rounded-[4px] px-[30px] py-[8px]"
+              >
+                <Link href="/profile-provider-reviews">Reviews</Link>
+              </button>
             </div>
           </div>
           <div>

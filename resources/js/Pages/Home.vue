@@ -14,7 +14,7 @@
         <div>
           <div class="flex justify-between text-sm mt-[44px] mb-[26px]">
             <div>
-              <h1 class="text-[16px]">Services in Riyadh, Saudi Arabia</h1>
+              <h1 class="text-[16px] font-bold">Services in Riyadh, Saudi Arabia</h1>
             </div>
             <div>
               <Link class="text-[16px] text-[#858585]" href="/all-services">See All</Link>
@@ -32,12 +32,14 @@
                 rounded-[10.84px]
               "
             >
+            <Link href="/request-Service-1">
               <div class="grid place-content-center mb-5">
                 <img src="images/towingVehicle.png" alt="Towing image" />
               </div>
               <div>
                 <h1 class="text-[#858585]">Sipping and Towing</h1>
               </div>
+            </Link>
             </div>
 
             <div
@@ -50,12 +52,14 @@
                 rounded-[10.84px]
               "
             >
+            <Link href="/request-Service-2">
               <div class="grid place-content-center mb-5">
                 <img src="images/Carrepair.png" alt="Car Repair" />
               </div>
               <div>
                 <h1 class="text-[#858585]">Home Repair</h1>
               </div>
+            </Link>
             </div>
 
             <div
@@ -68,12 +72,14 @@
                 rounded-[10.84px]
               "
             >
+            <Link href="/request-Service-3">
               <div class="grid place-content-center mb-5">
                 <img src="images/Car.png" alt="Car" />
               </div>
               <div>
                 <h1 class="text-[#858585]">Home Car Wash</h1>
               </div>
+            </Link>
             </div>
 
             <div
@@ -86,12 +92,14 @@
                 rounded-[10.84px]
               "
             >
+            <Link href="/request-Service-4,5">
               <div class="grid place-content-center mb-5">
                 <img src="images/Strut.png" alt="Strut" />
               </div>
               <div>
                 <h1 class="text-[#858585]">New Spare Parts</h1>
               </div>
+            </Link>
             </div>
           </div>
         </div>
@@ -101,7 +109,7 @@
             <div>
               <h1 class="text-[16px] font-bold">Your Orders</h1>
             </div>
-            <div>
+            <div class="text-[#858585]">
               <a href="">See All</a>
             </div>
           </div>
@@ -120,7 +128,7 @@
               </div>
               <div class="flex justify-between mb-[18px]">
                 <div class="flex">
-                  <div class="pr-[9.97px]">
+                  <div class="relative top-[4px] pr-[9.97px]">
                     <img
                       class="w-[12px] h-[12px]"
                       src="images/location-pin.png"
@@ -163,7 +171,7 @@
               </div>
               <div class="flex justify-between mb-[18px]">
                 <div class="flex">
-                  <div class="pr-[9.97px]">
+                  <div class="relative top-[4px] pr-[9.97px]">
                     <img
                       class="w-[12px] h-[12px]"
                       src="images/location-pin.png"
@@ -206,7 +214,7 @@
               </div>
               <div class="flex justify-between mb-[18px]">
                 <div class="flex">
-                  <div class="relative top-1 mr-[5px]">
+                  <div class="relative top-[4px] mr-[10px]">
                     <img
                       class="w-[12px] h-[12px]"
                       src="images/location-pin.png"
